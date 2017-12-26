@@ -1,0 +1,1337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8415352B1B94781100C41645 /* document.json in Resources */ = {isa = PBXBuildFile; fileRef = 8415352A1B94781100C41645 /* document.json */; };
+		8419830B1ADC071A0008D162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8419830A1ADC071A0008D162 /* main.m */; };
+		8419830E1ADC071A0008D162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8419830D1ADC071A0008D162 /* AppDelegate.m */; };
+		841983111ADC071A0008D162 /* AutomationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841983101ADC071A0008D162 /* AutomationViewController.m */; };
+		84230B881AE81FC000C4B451 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84230B871AE81FC000C4B451 /* QuartzCore.framework */; };
+		844D05161AEBED1300F7228B /* PowerCableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D05151AEBED1300F7228B /* PowerCableViewController.m */; };
+		844DC1DD1B7373950028076B /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DC1DC1B7373950028076B /* NewsViewController.m */; };
+		844EA3781B710A4A007A8EF6 /* UZOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844EA3771B710A4A007A8EF6 /* UZOViewController.m */; };
+		84539A041B807C430052FFD9 /* datePic.png in Resources */ = {isa = PBXBuildFile; fileRef = 84539A031B807C430052FFD9 /* datePic.png */; };
+		8453CDEA1BA064EA00238723 /* news1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8453CDE91BA064EA00238723 /* news1@2x.png */; };
+		847D0CEA1AE7FB1800EFC968 /* backgraund@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CAB1AE7FB1800EFC968 /* backgraund@2x.png */; };
+		847D0CEB1AE7FB1800EFC968 /* backgraund_color_ffffff_opasity_50%@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CAC1AE7FB1800EFC968 /* backgraund_color_ffffff_opasity_50%@2x.png */; };
+		847D0CEC1AE7FB1800EFC968 /* color_37474f@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CAD1AE7FB1800EFC968 /* color_37474f@2x.png */; };
+		847D0CED1AE7FB1800EFC968 /* color_5294c3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CAE1AE7FB1800EFC968 /* color_5294c3@2x.png */; };
+		847D0CEE1AE7FB1800EFC968 /* color_eaeaea_opasity_50%@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CAF1AE7FB1800EFC968 /* color_eaeaea_opasity_50%@2x.png */; };
+		847D0CEF1AE7FB1800EFC968 /* navbar_ic_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CB01AE7FB1800EFC968 /* navbar_ic_back@2x.png */; };
+		847D0CF01AE7FB1800EFC968 /* navbar_ic_back_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CB11AE7FB1800EFC968 /* navbar_ic_back_up@2x.png */; };
+		847D0CF11AE7FB1800EFC968 /* progressbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CB21AE7FB1800EFC968 /* progressbar@2x.png */; };
+		847D0CF21AE7FB1800EFC968 /* progressbar_o@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CB31AE7FB1800EFC968 /* progressbar_o@2x.png */; };
+		847D0CF31AE7FB1800EFC968 /* progressbar_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CB41AE7FB1800EFC968 /* progressbar_up@2x.png */; };
+		847D0CF41AE7FB1800EFC968 /* segmentcontrol_c@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CB51AE7FB1800EFC968 /* segmentcontrol_c@2x.png */; };
+		847D0CF51AE7FB1800EFC968 /* segmentcontrol_c_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CB61AE7FB1800EFC968 /* segmentcontrol_c_up@2x.png */; };
+		847D0CF61AE7FB1800EFC968 /* segmentcontrol_l@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CB71AE7FB1800EFC968 /* segmentcontrol_l@2x.png */; };
+		847D0CF71AE7FB1800EFC968 /* segmentcontrol_l_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CB81AE7FB1800EFC968 /* segmentcontrol_l_up@2x.png */; };
+		847D0CF81AE7FB1800EFC968 /* segmentcontrol_r@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CB91AE7FB1800EFC968 /* segmentcontrol_r@2x.png */; };
+		847D0CF91AE7FB1800EFC968 /* segmentcontrol_r_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CBA1AE7FB1800EFC968 /* segmentcontrol_r_up@2x.png */; };
+		847D0CFA1AE7FB1800EFC968 /* separator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CBB1AE7FB1800EFC968 /* separator@2x.png */; };
+		847D0CFB1AE7FB1800EFC968 /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CBC1AE7FB1800EFC968 /* splash@2x.png */; };
+		847D0CFC1AE7FB1800EFC968 /* switch_l@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CBD1AE7FB1800EFC968 /* switch_l@2x.png */; };
+		847D0CFD1AE7FB1800EFC968 /* switch_r@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CBE1AE7FB1800EFC968 /* switch_r@2x.png */; };
+		847D0CFE1AE7FB1800EFC968 /* tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CBF1AE7FB1800EFC968 /* tabbar@2x.png */; };
+		847D0CFF1AE7FB1800EFC968 /* tabbar_ic_about_the_project@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CC01AE7FB1800EFC968 /* tabbar_ic_about_the_project@2x.png */; };
+		847D0D001AE7FB1800EFC968 /* tabbar_ic_about_the_project_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CC11AE7FB1800EFC968 /* tabbar_ic_about_the_project_up@2x.png */; };
+		847D0D011AE7FB1800EFC968 /* tabbar_ic_automation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CC21AE7FB1800EFC968 /* tabbar_ic_automation@2x.png */; };
+		847D0D021AE7FB1800EFC968 /* tabbar_ic_automation_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CC31AE7FB1800EFC968 /* tabbar_ic_automation_up@2x.png */; };
+		847D0D031AE7FB1800EFC968 /* tabbar_ic_calculator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CC41AE7FB1800EFC968 /* tabbar_ic_calculator@2x.png */; };
+		847D0D041AE7FB1800EFC968 /* tabbar_ic_calculator_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CC51AE7FB1800EFC968 /* tabbar_ic_calculator_up@2x.png */; };
+		847D0D051AE7FB1800EFC968 /* tabbar_ic_electrician@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CC61AE7FB1800EFC968 /* tabbar_ic_electrician@2x.png */; };
+		847D0D061AE7FB1800EFC968 /* tabbar_icelectrician_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CC71AE7FB1800EFC968 /* tabbar_icelectrician_up@2x.png */; };
+		847D0D071AE7FB1800EFC968 /* textbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CC81AE7FB1800EFC968 /* textbox@2x.png */; };
+		847D0D081AE7FB1800EFC968 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CC91AE7FB1800EFC968 /* Thumbs.db */; };
+		847D0D091AE7FB1800EFC968 /* backgraund@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CCB1AE7FB1800EFC968 /* backgraund@3x.png */; };
+		847D0D0A1AE7FB1800EFC968 /* backgraund_color_ffffff_opasity_50%@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CCC1AE7FB1800EFC968 /* backgraund_color_ffffff_opasity_50%@3x.png */; };
+		847D0D0B1AE7FB1800EFC968 /* color_37474f@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CCD1AE7FB1800EFC968 /* color_37474f@3x.png */; };
+		847D0D0C1AE7FB1800EFC968 /* color_5294c3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CCE1AE7FB1800EFC968 /* color_5294c3@3x.png */; };
+		847D0D0D1AE7FB1800EFC968 /* color_eaeaea_opasity_50%@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CCF1AE7FB1800EFC968 /* color_eaeaea_opasity_50%@3x.png */; };
+		847D0D0E1AE7FB1800EFC968 /* navbar_ic_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CD01AE7FB1800EFC968 /* navbar_ic_back@3x.png */; };
+		847D0D0F1AE7FB1800EFC968 /* navbar_ic_back_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CD11AE7FB1800EFC968 /* navbar_ic_back_up@3x.png */; };
+		847D0D101AE7FB1800EFC968 /* progressbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CD21AE7FB1800EFC968 /* progressbar@3x.png */; };
+		847D0D111AE7FB1800EFC968 /* progressbar_o@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CD31AE7FB1800EFC968 /* progressbar_o@3x.png */; };
+		847D0D121AE7FB1800EFC968 /* progressbar_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CD41AE7FB1800EFC968 /* progressbar_up@3x.png */; };
+		847D0D131AE7FB1800EFC968 /* segmentcontrol_c@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CD51AE7FB1800EFC968 /* segmentcontrol_c@3x.png */; };
+		847D0D141AE7FB1800EFC968 /* segmentcontrol_c_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CD61AE7FB1800EFC968 /* segmentcontrol_c_up@3x.png */; };
+		847D0D151AE7FB1800EFC968 /* segmentcontrol_l@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CD71AE7FB1800EFC968 /* segmentcontrol_l@3x.png */; };
+		847D0D161AE7FB1800EFC968 /* segmentcontrol_l_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CD81AE7FB1800EFC968 /* segmentcontrol_l_up@3x.png */; };
+		847D0D171AE7FB1800EFC968 /* segmentcontrol_r@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CD91AE7FB1800EFC968 /* segmentcontrol_r@3x.png */; };
+		847D0D181AE7FB1800EFC968 /* segmentcontrol_r_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CDA1AE7FB1800EFC968 /* segmentcontrol_r_up@3x.png */; };
+		847D0D191AE7FB1800EFC968 /* separator@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CDB1AE7FB1800EFC968 /* separator@3x.png */; };
+		847D0D1A1AE7FB1800EFC968 /* splash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CDC1AE7FB1800EFC968 /* splash@3x.png */; };
+		847D0D1B1AE7FB1800EFC968 /* switch_l@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CDD1AE7FB1800EFC968 /* switch_l@3x.png */; };
+		847D0D1C1AE7FB1800EFC968 /* switch_r@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CDE1AE7FB1800EFC968 /* switch_r@3x.png */; };
+		847D0D1D1AE7FB1800EFC968 /* tabbar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CDF1AE7FB1800EFC968 /* tabbar@3x.png */; };
+		847D0D1E1AE7FB1800EFC968 /* tabbar_ic_about_the_project@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CE01AE7FB1800EFC968 /* tabbar_ic_about_the_project@3x.png */; };
+		847D0D1F1AE7FB1800EFC968 /* tabbar_ic_about_the_project_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CE11AE7FB1800EFC968 /* tabbar_ic_about_the_project_up@3x.png */; };
+		847D0D201AE7FB1800EFC968 /* tabbar_ic_automation@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CE21AE7FB1800EFC968 /* tabbar_ic_automation@3x.png */; };
+		847D0D211AE7FB1800EFC968 /* tabbar_ic_automation_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CE31AE7FB1800EFC968 /* tabbar_ic_automation_up@3x.png */; };
+		847D0D221AE7FB1800EFC968 /* tabbar_ic_calculator@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CE41AE7FB1800EFC968 /* tabbar_ic_calculator@3x.png */; };
+		847D0D231AE7FB1800EFC968 /* tabbar_ic_calculator_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CE51AE7FB1800EFC968 /* tabbar_ic_calculator_up@3x.png */; };
+		847D0D241AE7FB1800EFC968 /* tabbar_ic_electrician@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CE61AE7FB1800EFC968 /* tabbar_ic_electrician@3x.png */; };
+		847D0D251AE7FB1800EFC968 /* tabbar_icelectrician_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CE71AE7FB1800EFC968 /* tabbar_icelectrician_up@3x.png */; };
+		847D0D261AE7FB1800EFC968 /* textbox@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CE81AE7FB1800EFC968 /* textbox@3x.png */; };
+		847D0D271AE7FB1800EFC968 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = 847D0CE91AE7FB1800EFC968 /* Thumbs.db */; };
+		847D49FE1BBD157B00D80CD5 /* GeneratorActsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841535281B9476D900C41645 /* GeneratorActsViewController.m */; };
+		847D4A021BBD169A00D80CD5 /* ReadMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D4A011BBD169A00D80CD5 /* ReadMoreViewController.m */; };
+		847D4A071BBD1AEB00D80CD5 /* Справка онлайн помощника.html in Resources */ = {isa = PBXBuildFile; fileRef = 847D4A061BBD1AEB00D80CD5 /* Справка онлайн помощника.html */; };
+		847D4A321BBD1ECD00D80CD5 /* Выдержки из СНиП.html in Resources */ = {isa = PBXBuildFile; fileRef = 847D4A2D1BBD1ECD00D80CD5 /* Выдержки из СНиП.html */; };
+		847D4A331BBD1ECD00D80CD5 /* Мощность и токи двигателя.html in Resources */ = {isa = PBXBuildFile; fileRef = 847D4A2E1BBD1ECD00D80CD5 /* Мощность и токи двигателя.html */; };
+		847D4A341BBD1ECD00D80CD5 /* Сопротивление термометров.html in Resources */ = {isa = PBXBuildFile; fileRef = 847D4A2F1BBD1ECD00D80CD5 /* Сопротивление термометров.html */; };
+		847D4A351BBD1ECD00D80CD5 /* Таблица плавких вставок.html in Resources */ = {isa = PBXBuildFile; fileRef = 847D4A301BBD1ECD00D80CD5 /* Таблица плавких вставок.html */; };
+		847D4A361BBD1ECD00D80CD5 /* Температурные датчики.html in Resources */ = {isa = PBXBuildFile; fileRef = 847D4A311BBD1ECD00D80CD5 /* Температурные датчики.html */; };
+		847D4A3D1BBD1F5200D80CD5 /* обозначение на схеме in Resources */ = {isa = PBXBuildFile; fileRef = 847D4A3B1BBD1F5200D80CD5 /* обозначение на схеме */; };
+		847D4A3E1BBD1F5200D80CD5 /* авт. Обозначения на схеме.html in Resources */ = {isa = PBXBuildFile; fileRef = 847D4A3C1BBD1F5200D80CD5 /* авт. Обозначения на схеме.html */; };
+		847D4A411BBD201500D80CD5 /* Условные обозначения. Коммутационные устройства и контактные соединения (ГОСТ 2.755-87) _ electromonter.info_files in Resources */ = {isa = PBXBuildFile; fileRef = 847D4A3F1BBD201500D80CD5 /* Условные обозначения. Коммутационные устройства и контактные соединения (ГОСТ 2.755-87) _ electromonter.info_files */; };
+		847D4A421BBD201500D80CD5 /* Условные обозначения. Коммутационные устройства и контактные соединения (ГОСТ 2.755-87) _ electromonter.info.html in Resources */ = {isa = PBXBuildFile; fileRef = 847D4A401BBD201500D80CD5 /* Условные обозначения. Коммутационные устройства и контактные соединения (ГОСТ 2.755-87) _ electromonter.info.html */; };
+		847D4A451BBD204900D80CD5 /* кабель слаботочный in Resources */ = {isa = PBXBuildFile; fileRef = 847D4A431BBD204900D80CD5 /* кабель слаботочный */; };
+		847D4A461BBD204900D80CD5 /* слаботочый кабель.html in Resources */ = {isa = PBXBuildFile; fileRef = 847D4A441BBD204900D80CD5 /* слаботочый кабель.html */; };
+		847E21C41BC3FBC600BAB879 /* ExcerptsFromSNIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E21C31BC3FBC600BAB879 /* ExcerptsFromSNIPViewController.m */; };
+		847E21C71BC3FC3400BAB879 /* PowerAndCurrentEngineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E21C61BC3FC3400BAB879 /* PowerAndCurrentEngineViewController.m */; };
+		847E21CA1BC3FC9200BAB879 /* ResistanceThermometersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E21C91BC3FC9200BAB879 /* ResistanceThermometersViewController.m */; };
+		847E21CD1BC3FCF600BAB879 /* TableOfFuse-linksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E21CC1BC3FCF600BAB879 /* TableOfFuse-linksViewController.m */; };
+		847E21DB1BC40C1B00BAB879 /* Э Выдержки из СНиП.html in Resources */ = {isa = PBXBuildFile; fileRef = 847E21D61BC40C1B00BAB879 /* Э Выдержки из СНиП.html */; };
+		847E21DC1BC40C1B00BAB879 /* Защита IP.html in Resources */ = {isa = PBXBuildFile; fileRef = 847E21D71BC40C1B00BAB879 /* Защита IP.html */; };
+		847E21DD1BC40C1B00BAB879 /* Кабель для судостроителей.html in Resources */ = {isa = PBXBuildFile; fileRef = 847E21D81BC40C1B00BAB879 /* Кабель для судостроителей.html */; };
+		847E21DE1BC40C1B00BAB879 /* Таблица потребителей.html in Resources */ = {isa = PBXBuildFile; fileRef = 847E21D91BC40C1B00BAB879 /* Таблица потребителей.html */; };
+		847E21DF1BC40C1B00BAB879 /* Таблица сечений кабеля.html in Resources */ = {isa = PBXBuildFile; fileRef = 847E21DA1BC40C1B00BAB879 /* Таблица сечений кабеля.html */; };
+		847E21E21BC40C5100BAB879 /* соеденение проводов in Resources */ = {isa = PBXBuildFile; fileRef = 847E21E01BC40C5100BAB879 /* соеденение проводов */; };
+		847E21E31BC40C5100BAB879 /* Соединение проводов.html in Resources */ = {isa = PBXBuildFile; fileRef = 847E21E11BC40C5100BAB879 /* Соединение проводов.html */; };
+		847E21E61BC40C6C00BAB879 /* собираем шкаф in Resources */ = {isa = PBXBuildFile; fileRef = 847E21E41BC40C6C00BAB879 /* собираем шкаф */; };
+		847E21E71BC40C6C00BAB879 /* Собираем шкаф.html in Resources */ = {isa = PBXBuildFile; fileRef = 847E21E51BC40C6C00BAB879 /* Собираем шкаф.html */; };
+		847E21EA1BC40C7900BAB879 /* основы безопасности in Resources */ = {isa = PBXBuildFile; fileRef = 847E21E81BC40C7900BAB879 /* основы безопасности */; };
+		847E21EB1BC40C7900BAB879 /* основы безопасности.html in Resources */ = {isa = PBXBuildFile; fileRef = 847E21E91BC40C7900BAB879 /* основы безопасности.html */; };
+		847E21EE1BC40C8500BAB879 /* Э обозначение на схеме in Resources */ = {isa = PBXBuildFile; fileRef = 847E21EC1BC40C8500BAB879 /* Э обозначение на схеме */; };
+		847E21EF1BC40C8500BAB879 /* Обозначения.html in Resources */ = {isa = PBXBuildFile; fileRef = 847E21ED1BC40C8500BAB879 /* Обозначения.html */; };
+		847E21F21BC40CAA00BAB879 /* силовой кабель in Resources */ = {isa = PBXBuildFile; fileRef = 847E21F01BC40CAA00BAB879 /* силовой кабель */; };
+		847E21F31BC40CAA00BAB879 /* силовой кабель.html in Resources */ = {isa = PBXBuildFile; fileRef = 847E21F11BC40CAA00BAB879 /* силовой кабель.html */; };
+		847E21F61BC40CB900BAB879 /* заземление in Resources */ = {isa = PBXBuildFile; fileRef = 847E21F41BC40CB900BAB879 /* заземление */; };
+		847E21F71BC40CB900BAB879 /* заземление.html in Resources */ = {isa = PBXBuildFile; fileRef = 847E21F51BC40CB900BAB879 /* заземление.html */; };
+		847E21FA1BC40CC700BAB879 /* автоматические выключатели in Resources */ = {isa = PBXBuildFile; fileRef = 847E21F81BC40CC700BAB879 /* автоматические выключатели */; };
+		847E21FB1BC40CC700BAB879 /* Автоматические выключатели.html in Resources */ = {isa = PBXBuildFile; fileRef = 847E21F91BC40CC700BAB879 /* Автоматические выключатели.html */; };
+		847E21FE1BC4201200BAB879 /* ConcatenateWiresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E21FD1BC4201200BAB879 /* ConcatenateWiresViewController.m */; };
+		847E22011BC4202D00BAB879 /* CollectCabinetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E22001BC4202D00BAB879 /* CollectCabinetViewController.m */; };
+		847E22041BC4204700BAB879 /* CircuitBreakersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E22031BC4204700BAB879 /* CircuitBreakersViewController.m */; };
+		847E22071BC4205D00BAB879 /* TableOfCableCrossSectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E22061BC4205C00BAB879 /* TableOfCableCrossSectionsViewController.m */; };
+		847E220A1BC4207100BAB879 /* ProtectionIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E22091BC4207100BAB879 /* ProtectionIPViewController.m */; };
+		847E220D1BC4208500BAB879 /* CablesForShipbuildersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847E220C1BC4208500BAB879 /* CablesForShipbuildersViewController.m */; };
+		848126471BC7DF1E00692EF9 /* DiametrSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848126461BC7DF1E00692EF9 /* DiametrSectionViewController.m */; };
+		8481264C1BC7DF9600692EF9 /* DiametrCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8481264A1BC7DF9600692EF9 /* DiametrCell.m */; };
+		8481264D1BC7DF9600692EF9 /* DiametrCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8481264B1BC7DF9600692EF9 /* DiametrCell.xib */; };
+		848126511BC7F3B400692EF9 /* SectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8481264F1BC7F3B400692EF9 /* SectionCell.m */; };
+		848126521BC7F3B400692EF9 /* SectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848126501BC7F3B400692EF9 /* SectionCell.xib */; };
+		848A2E7D1BBC21BE004E8013 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 848A2E7A1BBC21BE004E8013 /* clock.png */; };
+		848A2E7E1BBC21BE004E8013 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 848A2E7B1BBC21BE004E8013 /* down.png */; };
+		848A2E7F1BBC21BE004E8013 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 848A2E7C1BBC21BE004E8013 /* up.png */; };
+		848DE4A61BC2D298004D4D32 /* автоматизируем итп in Resources */ = {isa = PBXBuildFile; fileRef = 848DE4A41BC2D298004D4D32 /* автоматизируем итп */; };
+		848DE4A71BC2D298004D4D32 /* Автоматизация ИТП.html in Resources */ = {isa = PBXBuildFile; fileRef = 848DE4A51BC2D298004D4D32 /* Автоматизация ИТП.html */; };
+		848DE4AA1BC2DD69004D4D32 /* DesignationOfCommutativeDevicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848DE4A91BC2DD69004D4D32 /* DesignationOfCommutativeDevicesViewController.m */; };
+		848DE4AD1BC30508004D4D32 /* AutomateITPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848DE4AC1BC30508004D4D32 /* AutomateITPViewController.m */; };
+		849987BD1BD520E90003D2BB /* электромонтаж у себя дома in Resources */ = {isa = PBXBuildFile; fileRef = 849987BB1BD520E90003D2BB /* электромонтаж у себя дома */; };
+		849987BE1BD520E90003D2BB /* Электромонтаж у себя дома.html in Resources */ = {isa = PBXBuildFile; fileRef = 849987BC1BD520E90003D2BB /* Электромонтаж у себя дома.html */; };
+		849987C11BD5229F0003D2BB /* WiringAtHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849987C01BD5229F0003D2BB /* WiringAtHomeViewController.m */; };
+		849E673A1B187CA800350DA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841983121ADC071A0008D162 /* Main.storyboard */; };
+		849EE6F51B1C6313009FB3EE /* TemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849EE6F41B1C6313009FB3EE /* TemperatureViewController.m */; };
+		849EE6F81B1C655A009FB3EE /* TableCabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849EE6F71B1C655A009FB3EE /* TableCabelViewController.m */; };
+		849F0BEE1B132AEF009F07DC /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849F0BD91B132AEF009F07DC /* logo.jpg */; };
+		849F0BEF1B132AEF009F07DC /* О проекте.html in Resources */ = {isa = PBXBuildFile; fileRef = 849F0BDA1B132AEF009F07DC /* О проекте.html */; };
+		849F0BF01B132AEF009F07DC /* Ответственность.html in Resources */ = {isa = PBXBuildFile; fileRef = 849F0BDB1B132AEF009F07DC /* Ответственность.html */; };
+		849F50481B0FC5CF004DE2DF /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849F50471B0FC5CF004DE2DF /* iAd.framework */; };
+		84A0099C1B05E07500EF3018 /* DesignationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0099B1B05E07500EF3018 /* DesignationViewController.m */; };
+		84A0099F1B05E1F700EF3018 /* SNIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0099E1B05E1F700EF3018 /* SNIPViewController.m */; };
+		84A209DB1B0B869E00FC9EC4 /* 220Switch_l@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A209D51B0B869E00FC9EC4 /* 220Switch_l@3x.png */; };
+		84A209DC1B0B869E00FC9EC4 /* 220Switch_r@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A209D61B0B869E00FC9EC4 /* 220Switch_r@3x.png */; };
+		84A209DD1B0B869E00FC9EC4 /* ABtSwitch_l@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A209D71B0B869E00FC9EC4 /* ABtSwitch_l@3x.png */; };
+		84A209DE1B0B869E00FC9EC4 /* ABtSwitch_r@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A209D81B0B869E00FC9EC4 /* ABtSwitch_r@3x.png */; };
+		84A209DF1B0B869E00FC9EC4 /* AlCuSwitch_l@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A209D91B0B869E00FC9EC4 /* AlCuSwitch_l@3x.png */; };
+		84A209E01B0B869E00FC9EC4 /* AlCuSwitch_r@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A209DA1B0B869E00FC9EC4 /* AlCuSwitch_r@3x.png */; };
+		84A220841ADD54010041093B /* AboutProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A220831ADD54010041093B /* AboutProjectViewController.m */; };
+		84A220871ADD614A0041093B /* ElectricianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A220861ADD614A0041093B /* ElectricianViewController.m */; };
+		84A2208A1ADD61AE0041093B /* SectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A220891ADD61AE0041093B /* SectionViewController.m */; };
+		84A37FC91AF64221004B75A6 /* CalculateSpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A37FC81AF64221004B75A6 /* CalculateSpeedViewController.m */; };
+		84A37FCC1AF6466C004B75A6 /* FrequencyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A37FCB1AF6466C004B75A6 /* FrequencyCell.m */; };
+		84A37FCE1AF646F3004B75A6 /* FrequencyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A37FCD1AF646F3004B75A6 /* FrequencyCell.xib */; };
+		84A37FD21AF653F1004B75A6 /* CountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A37FD01AF653F1004B75A6 /* CountCell.m */; };
+		84A37FD31AF653F1004B75A6 /* CountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A37FD11AF653F1004B75A6 /* CountCell.xib */; };
+		84A37FD71AF66C36004B75A6 /* SpeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A37FD51AF66C36004B75A6 /* SpeedCell.m */; };
+		84A37FD81AF66C36004B75A6 /* SpeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A37FD61AF66C36004B75A6 /* SpeedCell.xib */; };
+		84A394F21B17886D006FDE8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841983151ADC071A0008D162 /* Images.xcassets */; };
+		84A4EB971B0DE1B90019D4FB /* splashWithText@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A4EB961B0DE1B90019D4FB /* splashWithText@2x.png */; };
+		84A4EB991B0DE1C90019D4FB /* splashWithText@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A4EB981B0DE1C90019D4FB /* splashWithText@3x.png */; };
+		84A4ECAF1B0E002E0019D4FB /* LowCurrentCabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4ECAE1B0E002E0019D4FB /* LowCurrentCabelViewController.m */; };
+		84A4ECB21B0E008D0019D4FB /* DesignationAutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4ECB11B0E008D0019D4FB /* DesignationAutoViewController.m */; };
+		84A4ECBB1B0E01250019D4FB /* GroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4ECBA1B0E01250019D4FB /* GroundViewController.m */; };
+		84A4ECBE1B0E01550019D4FB /* SecurityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4ECBD1B0E01550019D4FB /* SecurityViewController.m */; };
+		84A7439D1B17005F003896CD /* MKStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A7439A1B17005F003896CD /* MKStoreManager.m */; };
+		84A7439E1B17005F003896CD /* MKStoreObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A7439C1B17005F003896CD /* MKStoreObserver.m */; };
+		84A9BD231AEF9FD700E1EFAF /* LightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9BD221AEF9FD600E1EFAF /* LightViewController.m */; };
+		84AB50BC1B74D4BD000BB96D /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB50BA1B74D4BD000BB96D /* NewsCell.m */; };
+		84AB50BD1B74D4BD000BB96D /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AB50BB1B74D4BD000BB96D /* NewsCell.xib */; };
+		84AB50BF1B74D771000BB96D /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AB50BE1B74D771000BB96D /* Icon-76@2x.png */; };
+		84AB50C21B74ECE5000BB96D /* DetailNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB50C11B74ECE5000BB96D /* DetailNewsViewController.m */; };
+		84ABE0301B16605E004FDDF7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ABE02F1B16605E004FDDF7 /* StoreKit.framework */; };
+		84BBD0371AEB855700A49914 /* CalculatorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BBD0361AEB855700A49914 /* CalculatorsViewController.m */; };
+		84E55B7D1B875889007F57AA /* CallSpecialistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E55B7C1B875889007F57AA /* CallSpecialistViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		841535271B9476D900C41645 /* GeneratorActsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratorActsViewController.h; sourceTree = "<group>"; };
+		841535281B9476D900C41645 /* GeneratorActsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratorActsViewController.m; sourceTree = "<group>"; };
+		8415352A1B94781100C41645 /* document.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = document.json; sourceTree = "<group>"; };
+		841983051ADC071A0008D162 /* Электрика.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Электрика.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841983091ADC071A0008D162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8419830A1ADC071A0008D162 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8419830C1ADC071A0008D162 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8419830D1ADC071A0008D162 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8419830F1ADC071A0008D162 /* AutomationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutomationViewController.h; sourceTree = "<group>"; };
+		841983101ADC071A0008D162 /* AutomationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomationViewController.m; sourceTree = "<group>"; };
+		841983131ADC071A0008D162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841983151ADC071A0008D162 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		841983181ADC071A0008D162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		841983231ADC071A0008D162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841983241ADC071A0008D162 /* ____________________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________________Tests.m"; sourceTree = "<group>"; };
+		84230B871AE81FC000C4B451 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		844D05141AEBED1300F7228B /* PowerCableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerCableViewController.h; sourceTree = "<group>"; };
+		844D05151AEBED1300F7228B /* PowerCableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerCableViewController.m; sourceTree = "<group>"; };
+		844DC1DB1B7373950028076B /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		844DC1DC1B7373950028076B /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		844EA3761B710A4A007A8EF6 /* UZOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UZOViewController.h; sourceTree = "<group>"; };
+		844EA3771B710A4A007A8EF6 /* UZOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UZOViewController.m; sourceTree = "<group>"; };
+		84539A031B807C430052FFD9 /* datePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = datePic.png; sourceTree = "<group>"; };
+		8453CDE91BA064EA00238723 /* news1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "news1@2x.png"; sourceTree = "<group>"; };
+		847D0CAB1AE7FB1800EFC968 /* backgraund@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgraund@2x.png"; sourceTree = "<group>"; };
+		847D0CAC1AE7FB1800EFC968 /* backgraund_color_ffffff_opasity_50%@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgraund_color_ffffff_opasity_50%@2x.png"; sourceTree = "<group>"; };
+		847D0CAD1AE7FB1800EFC968 /* color_37474f@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "color_37474f@2x.png"; sourceTree = "<group>"; };
+		847D0CAE1AE7FB1800EFC968 /* color_5294c3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "color_5294c3@2x.png"; sourceTree = "<group>"; };
+		847D0CAF1AE7FB1800EFC968 /* color_eaeaea_opasity_50%@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "color_eaeaea_opasity_50%@2x.png"; sourceTree = "<group>"; };
+		847D0CB01AE7FB1800EFC968 /* navbar_ic_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_ic_back@2x.png"; sourceTree = "<group>"; };
+		847D0CB11AE7FB1800EFC968 /* navbar_ic_back_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_ic_back_up@2x.png"; sourceTree = "<group>"; };
+		847D0CB21AE7FB1800EFC968 /* progressbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressbar@2x.png"; sourceTree = "<group>"; };
+		847D0CB31AE7FB1800EFC968 /* progressbar_o@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressbar_o@2x.png"; sourceTree = "<group>"; };
+		847D0CB41AE7FB1800EFC968 /* progressbar_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressbar_up@2x.png"; sourceTree = "<group>"; };
+		847D0CB51AE7FB1800EFC968 /* segmentcontrol_c@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentcontrol_c@2x.png"; sourceTree = "<group>"; };
+		847D0CB61AE7FB1800EFC968 /* segmentcontrol_c_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentcontrol_c_up@2x.png"; sourceTree = "<group>"; };
+		847D0CB71AE7FB1800EFC968 /* segmentcontrol_l@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentcontrol_l@2x.png"; sourceTree = "<group>"; };
+		847D0CB81AE7FB1800EFC968 /* segmentcontrol_l_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentcontrol_l_up@2x.png"; sourceTree = "<group>"; };
+		847D0CB91AE7FB1800EFC968 /* segmentcontrol_r@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentcontrol_r@2x.png"; sourceTree = "<group>"; };
+		847D0CBA1AE7FB1800EFC968 /* segmentcontrol_r_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentcontrol_r_up@2x.png"; sourceTree = "<group>"; };
+		847D0CBB1AE7FB1800EFC968 /* separator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "separator@2x.png"; sourceTree = "<group>"; };
+		847D0CBC1AE7FB1800EFC968 /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@2x.png"; sourceTree = "<group>"; };
+		847D0CBD1AE7FB1800EFC968 /* switch_l@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_l@2x.png"; sourceTree = "<group>"; };
+		847D0CBE1AE7FB1800EFC968 /* switch_r@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_r@2x.png"; sourceTree = "<group>"; };
+		847D0CBF1AE7FB1800EFC968 /* tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar@2x.png"; sourceTree = "<group>"; };
+		847D0CC01AE7FB1800EFC968 /* tabbar_ic_about_the_project@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_ic_about_the_project@2x.png"; sourceTree = "<group>"; };
+		847D0CC11AE7FB1800EFC968 /* tabbar_ic_about_the_project_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_ic_about_the_project_up@2x.png"; sourceTree = "<group>"; };
+		847D0CC21AE7FB1800EFC968 /* tabbar_ic_automation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_ic_automation@2x.png"; sourceTree = "<group>"; };
+		847D0CC31AE7FB1800EFC968 /* tabbar_ic_automation_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_ic_automation_up@2x.png"; sourceTree = "<group>"; };
+		847D0CC41AE7FB1800EFC968 /* tabbar_ic_calculator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_ic_calculator@2x.png"; sourceTree = "<group>"; };
+		847D0CC51AE7FB1800EFC968 /* tabbar_ic_calculator_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_ic_calculator_up@2x.png"; sourceTree = "<group>"; };
+		847D0CC61AE7FB1800EFC968 /* tabbar_ic_electrician@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_ic_electrician@2x.png"; sourceTree = "<group>"; };
+		847D0CC71AE7FB1800EFC968 /* tabbar_icelectrician_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icelectrician_up@2x.png"; sourceTree = "<group>"; };
+		847D0CC81AE7FB1800EFC968 /* textbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textbox@2x.png"; sourceTree = "<group>"; };
+		847D0CC91AE7FB1800EFC968 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		847D0CCB1AE7FB1800EFC968 /* backgraund@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgraund@3x.png"; sourceTree = "<group>"; };
+		847D0CCC1AE7FB1800EFC968 /* backgraund_color_ffffff_opasity_50%@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgraund_color_ffffff_opasity_50%@3x.png"; sourceTree = "<group>"; };
+		847D0CCD1AE7FB1800EFC968 /* color_37474f@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "color_37474f@3x.png"; sourceTree = "<group>"; };
+		847D0CCE1AE7FB1800EFC968 /* color_5294c3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "color_5294c3@3x.png"; sourceTree = "<group>"; };
+		847D0CCF1AE7FB1800EFC968 /* color_eaeaea_opasity_50%@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "color_eaeaea_opasity_50%@3x.png"; sourceTree = "<group>"; };
+		847D0CD01AE7FB1800EFC968 /* navbar_ic_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_ic_back@3x.png"; sourceTree = "<group>"; };
+		847D0CD11AE7FB1800EFC968 /* navbar_ic_back_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_ic_back_up@3x.png"; sourceTree = "<group>"; };
+		847D0CD21AE7FB1800EFC968 /* progressbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressbar@3x.png"; sourceTree = "<group>"; };
+		847D0CD31AE7FB1800EFC968 /* progressbar_o@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressbar_o@3x.png"; sourceTree = "<group>"; };
+		847D0CD41AE7FB1800EFC968 /* progressbar_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressbar_up@3x.png"; sourceTree = "<group>"; };
+		847D0CD51AE7FB1800EFC968 /* segmentcontrol_c@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentcontrol_c@3x.png"; sourceTree = "<group>"; };
+		847D0CD61AE7FB1800EFC968 /* segmentcontrol_c_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentcontrol_c_up@3x.png"; sourceTree = "<group>"; };
+		847D0CD71AE7FB1800EFC968 /* segmentcontrol_l@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentcontrol_l@3x.png"; sourceTree = "<group>"; };
+		847D0CD81AE7FB1800EFC968 /* segmentcontrol_l_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentcontrol_l_up@3x.png"; sourceTree = "<group>"; };
+		847D0CD91AE7FB1800EFC968 /* segmentcontrol_r@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentcontrol_r@3x.png"; sourceTree = "<group>"; };
+		847D0CDA1AE7FB1800EFC968 /* segmentcontrol_r_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segmentcontrol_r_up@3x.png"; sourceTree = "<group>"; };
+		847D0CDB1AE7FB1800EFC968 /* separator@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "separator@3x.png"; sourceTree = "<group>"; };
+		847D0CDC1AE7FB1800EFC968 /* splash@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash@3x.png"; sourceTree = "<group>"; };
+		847D0CDD1AE7FB1800EFC968 /* switch_l@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_l@3x.png"; sourceTree = "<group>"; };
+		847D0CDE1AE7FB1800EFC968 /* switch_r@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_r@3x.png"; sourceTree = "<group>"; };
+		847D0CDF1AE7FB1800EFC968 /* tabbar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar@3x.png"; sourceTree = "<group>"; };
+		847D0CE01AE7FB1800EFC968 /* tabbar_ic_about_the_project@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_ic_about_the_project@3x.png"; sourceTree = "<group>"; };
+		847D0CE11AE7FB1800EFC968 /* tabbar_ic_about_the_project_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_ic_about_the_project_up@3x.png"; sourceTree = "<group>"; };
+		847D0CE21AE7FB1800EFC968 /* tabbar_ic_automation@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_ic_automation@3x.png"; sourceTree = "<group>"; };
+		847D0CE31AE7FB1800EFC968 /* tabbar_ic_automation_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_ic_automation_up@3x.png"; sourceTree = "<group>"; };
+		847D0CE41AE7FB1800EFC968 /* tabbar_ic_calculator@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_ic_calculator@3x.png"; sourceTree = "<group>"; };
+		847D0CE51AE7FB1800EFC968 /* tabbar_ic_calculator_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_ic_calculator_up@3x.png"; sourceTree = "<group>"; };
+		847D0CE61AE7FB1800EFC968 /* tabbar_ic_electrician@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_ic_electrician@3x.png"; sourceTree = "<group>"; };
+		847D0CE71AE7FB1800EFC968 /* tabbar_icelectrician_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_icelectrician_up@3x.png"; sourceTree = "<group>"; };
+		847D0CE81AE7FB1800EFC968 /* textbox@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textbox@3x.png"; sourceTree = "<group>"; };
+		847D0CE91AE7FB1800EFC968 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		847D0D281AE81EAE00EFC968 /* Справочник электрика-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Справочник электрика-Bridging-Header.h"; sourceTree = "<group>"; };
+		847D4A001BBD169A00D80CD5 /* ReadMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadMoreViewController.h; sourceTree = "<group>"; };
+		847D4A011BBD169A00D80CD5 /* ReadMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadMoreViewController.m; sourceTree = "<group>"; };
+		847D4A061BBD1AEB00D80CD5 /* Справка онлайн помощника.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Справка онлайн помощника.html"; path = "Online инженер/Справка онлайн помощника.html"; sourceTree = "<group>"; };
+		847D4A2D1BBD1ECD00D80CD5 /* Выдержки из СНиП.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Выдержки из СНиП.html"; path = "Автоматизация/Выдержки из СНиП.html"; sourceTree = "<group>"; };
+		847D4A2E1BBD1ECD00D80CD5 /* Мощность и токи двигателя.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Мощность и токи двигателя.html"; path = "Автоматизация/Мощность и токи двигателя.html"; sourceTree = "<group>"; };
+		847D4A2F1BBD1ECD00D80CD5 /* Сопротивление термометров.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Сопротивление термометров.html"; path = "Автоматизация/Сопротивление термометров.html"; sourceTree = "<group>"; };
+		847D4A301BBD1ECD00D80CD5 /* Таблица плавких вставок.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Таблица плавких вставок.html"; path = "Автоматизация/Таблица плавких вставок.html"; sourceTree = "<group>"; };
+		847D4A311BBD1ECD00D80CD5 /* Температурные датчики.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Температурные датчики.html"; path = "Автоматизация/Температурные датчики.html"; sourceTree = "<group>"; };
+		847D4A3B1BBD1F5200D80CD5 /* обозначение на схеме */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "обозначение на схеме"; path = "Автоматизация/Обозначения на схеме/обозначение на схеме"; sourceTree = "<group>"; };
+		847D4A3C1BBD1F5200D80CD5 /* авт. Обозначения на схеме.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "авт. Обозначения на схеме.html"; path = "Автоматизация/Обозначения на схеме/авт. Обозначения на схеме.html"; sourceTree = "<group>"; };
+		847D4A3F1BBD201500D80CD5 /* Условные обозначения. Коммутационные устройства и контактные соединения (ГОСТ 2.755-87) _ electromonter.info_files */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Условные обозначения. Коммутационные устройства и контактные соединения (ГОСТ 2.755-87) _ electromonter.info_files"; path = "Автоматизация/Обозн. коммут. аппаратов/Условные обозначения. Коммутационные устройства и контактные соединения (ГОСТ 2.755-87) _ electromonter.info_files"; sourceTree = "<group>"; };
+		847D4A401BBD201500D80CD5 /* Условные обозначения. Коммутационные устройства и контактные соединения (ГОСТ 2.755-87) _ electromonter.info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Условные обозначения. Коммутационные устройства и контактные соединения (ГОСТ 2.755-87) _ electromonter.info.html"; path = "Автоматизация/Обозн. коммут. аппаратов/Условные обозначения. Коммутационные устройства и контактные соединения (ГОСТ 2.755-87) _ electromonter.info.html"; sourceTree = "<group>"; };
+		847D4A431BBD204900D80CD5 /* кабель слаботочный */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "кабель слаботочный"; path = "Автоматизация/Кабель слаботочный/кабель слаботочный"; sourceTree = "<group>"; };
+		847D4A441BBD204900D80CD5 /* слаботочый кабель.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "слаботочый кабель.html"; path = "Автоматизация/Кабель слаботочный/слаботочый кабель.html"; sourceTree = "<group>"; };
+		847E21C21BC3FBC600BAB879 /* ExcerptsFromSNIPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcerptsFromSNIPViewController.h; sourceTree = "<group>"; };
+		847E21C31BC3FBC600BAB879 /* ExcerptsFromSNIPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcerptsFromSNIPViewController.m; sourceTree = "<group>"; };
+		847E21C51BC3FC3400BAB879 /* PowerAndCurrentEngineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerAndCurrentEngineViewController.h; sourceTree = "<group>"; };
+		847E21C61BC3FC3400BAB879 /* PowerAndCurrentEngineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerAndCurrentEngineViewController.m; sourceTree = "<group>"; };
+		847E21C81BC3FC9200BAB879 /* ResistanceThermometersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResistanceThermometersViewController.h; sourceTree = "<group>"; };
+		847E21C91BC3FC9200BAB879 /* ResistanceThermometersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResistanceThermometersViewController.m; sourceTree = "<group>"; };
+		847E21CB1BC3FCF600BAB879 /* TableOfFuse-linksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TableOfFuse-linksViewController.h"; sourceTree = "<group>"; };
+		847E21CC1BC3FCF600BAB879 /* TableOfFuse-linksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TableOfFuse-linksViewController.m"; sourceTree = "<group>"; };
+		847E21D61BC40C1B00BAB879 /* Э Выдержки из СНиП.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Э Выдержки из СНиП.html"; path = "Электрика/Э Выдержки из СНиП.html"; sourceTree = "<group>"; };
+		847E21D71BC40C1B00BAB879 /* Защита IP.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Защита IP.html"; path = "Электрика/Защита IP.html"; sourceTree = "<group>"; };
+		847E21D81BC40C1B00BAB879 /* Кабель для судостроителей.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Кабель для судостроителей.html"; path = "Электрика/Кабель для судостроителей.html"; sourceTree = "<group>"; };
+		847E21D91BC40C1B00BAB879 /* Таблица потребителей.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Таблица потребителей.html"; path = "Электрика/Таблица потребителей.html"; sourceTree = "<group>"; };
+		847E21DA1BC40C1B00BAB879 /* Таблица сечений кабеля.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Таблица сечений кабеля.html"; path = "Электрика/Таблица сечений кабеля.html"; sourceTree = "<group>"; };
+		847E21E01BC40C5100BAB879 /* соеденение проводов */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "соеденение проводов"; path = "Электрика/Соединение проводов/соеденение проводов"; sourceTree = "<group>"; };
+		847E21E11BC40C5100BAB879 /* Соединение проводов.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Соединение проводов.html"; path = "Электрика/Соединение проводов/Соединение проводов.html"; sourceTree = "<group>"; };
+		847E21E41BC40C6C00BAB879 /* собираем шкаф */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "собираем шкаф"; path = "Электрика/Собираем шкаф/собираем шкаф"; sourceTree = "<group>"; };
+		847E21E51BC40C6C00BAB879 /* Собираем шкаф.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Собираем шкаф.html"; path = "Электрика/Собираем шкаф/Собираем шкаф.html"; sourceTree = "<group>"; };
+		847E21E81BC40C7900BAB879 /* основы безопасности */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "основы безопасности"; path = "Электрика/Основы безопасности/основы безопасности"; sourceTree = "<group>"; };
+		847E21E91BC40C7900BAB879 /* основы безопасности.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "основы безопасности.html"; path = "Электрика/Основы безопасности/основы безопасности.html"; sourceTree = "<group>"; };
+		847E21EC1BC40C8500BAB879 /* Э обозначение на схеме */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Э обозначение на схеме"; path = "Электрика/Обозначения на схеме/Э обозначение на схеме"; sourceTree = "<group>"; };
+		847E21ED1BC40C8500BAB879 /* Обозначения.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Обозначения.html"; path = "Электрика/Обозначения на схеме/Обозначения.html"; sourceTree = "<group>"; };
+		847E21F01BC40CAA00BAB879 /* силовой кабель */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "силовой кабель"; path = "Электрика/Кабель силовой/силовой кабель"; sourceTree = "<group>"; };
+		847E21F11BC40CAA00BAB879 /* силовой кабель.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "силовой кабель.html"; path = "Электрика/Кабель силовой/силовой кабель.html"; sourceTree = "<group>"; };
+		847E21F41BC40CB900BAB879 /* заземление */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "заземление"; path = "Электрика/Заземление/заземление"; sourceTree = "<group>"; };
+		847E21F51BC40CB900BAB879 /* заземление.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "заземление.html"; path = "Электрика/Заземление/заземление.html"; sourceTree = "<group>"; };
+		847E21F81BC40CC700BAB879 /* автоматические выключатели */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "автоматические выключатели"; path = "Электрика/Автоматические выключатели/автоматические выключатели"; sourceTree = "<group>"; };
+		847E21F91BC40CC700BAB879 /* Автоматические выключатели.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Автоматические выключатели.html"; path = "Электрика/Автоматические выключатели/Автоматические выключатели.html"; sourceTree = "<group>"; };
+		847E21FC1BC4201200BAB879 /* ConcatenateWiresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcatenateWiresViewController.h; sourceTree = "<group>"; };
+		847E21FD1BC4201200BAB879 /* ConcatenateWiresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcatenateWiresViewController.m; sourceTree = "<group>"; };
+		847E21FF1BC4202D00BAB879 /* CollectCabinetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectCabinetViewController.h; sourceTree = "<group>"; };
+		847E22001BC4202D00BAB879 /* CollectCabinetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectCabinetViewController.m; sourceTree = "<group>"; };
+		847E22021BC4204700BAB879 /* CircuitBreakersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircuitBreakersViewController.h; sourceTree = "<group>"; };
+		847E22031BC4204700BAB879 /* CircuitBreakersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircuitBreakersViewController.m; sourceTree = "<group>"; };
+		847E22051BC4205C00BAB879 /* TableOfCableCrossSectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableOfCableCrossSectionsViewController.h; sourceTree = "<group>"; };
+		847E22061BC4205C00BAB879 /* TableOfCableCrossSectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableOfCableCrossSectionsViewController.m; sourceTree = "<group>"; };
+		847E22081BC4207100BAB879 /* ProtectionIPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtectionIPViewController.h; sourceTree = "<group>"; };
+		847E22091BC4207100BAB879 /* ProtectionIPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtectionIPViewController.m; sourceTree = "<group>"; };
+		847E220B1BC4208500BAB879 /* CablesForShipbuildersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CablesForShipbuildersViewController.h; sourceTree = "<group>"; };
+		847E220C1BC4208500BAB879 /* CablesForShipbuildersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CablesForShipbuildersViewController.m; sourceTree = "<group>"; };
+		848126451BC7DF1E00692EF9 /* DiametrSectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiametrSectionViewController.h; sourceTree = "<group>"; };
+		848126461BC7DF1E00692EF9 /* DiametrSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiametrSectionViewController.m; sourceTree = "<group>"; };
+		848126491BC7DF9600692EF9 /* DiametrCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiametrCell.h; sourceTree = "<group>"; };
+		8481264A1BC7DF9600692EF9 /* DiametrCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiametrCell.m; sourceTree = "<group>"; };
+		8481264B1BC7DF9600692EF9 /* DiametrCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiametrCell.xib; sourceTree = "<group>"; };
+		8481264E1BC7F3B400692EF9 /* SectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionCell.h; sourceTree = "<group>"; };
+		8481264F1BC7F3B400692EF9 /* SectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionCell.m; sourceTree = "<group>"; };
+		848126501BC7F3B400692EF9 /* SectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionCell.xib; sourceTree = "<group>"; };
+		848A2E7A1BBC21BE004E8013 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		848A2E7B1BBC21BE004E8013 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		848A2E7C1BBC21BE004E8013 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		848DE4A41BC2D298004D4D32 /* автоматизируем итп */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "автоматизируем итп"; path = "Автоматизация/Автоматизируем ИТП/автоматизируем итп"; sourceTree = "<group>"; };
+		848DE4A51BC2D298004D4D32 /* Автоматизация ИТП.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "Автоматизация ИТП.html"; path = "Автоматизация/Автоматизируем ИТП/Автоматизация ИТП.html"; sourceTree = "<group>"; };
+		848DE4A81BC2DD69004D4D32 /* DesignationOfCommutativeDevicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignationOfCommutativeDevicesViewController.h; sourceTree = "<group>"; };
+		848DE4A91BC2DD69004D4D32 /* DesignationOfCommutativeDevicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignationOfCommutativeDevicesViewController.m; sourceTree = "<group>"; };
+		848DE4AB1BC30508004D4D32 /* AutomateITPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutomateITPViewController.h; sourceTree = "<group>"; };
+		848DE4AC1BC30508004D4D32 /* AutomateITPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutomateITPViewController.m; sourceTree = "<group>"; };
+		849987BB1BD520E90003D2BB /* электромонтаж у себя дома */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "электромонтаж у себя дома"; sourceTree = "<group>"; };
+		849987BC1BD520E90003D2BB /* Электромонтаж у себя дома.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Электромонтаж у себя дома.html"; sourceTree = "<group>"; };
+		849987BF1BD5229F0003D2BB /* WiringAtHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiringAtHomeViewController.h; sourceTree = "<group>"; };
+		849987C01BD5229F0003D2BB /* WiringAtHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiringAtHomeViewController.m; sourceTree = "<group>"; };
+		849EE6F31B1C6313009FB3EE /* TemperatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureViewController.h; sourceTree = "<group>"; };
+		849EE6F41B1C6313009FB3EE /* TemperatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureViewController.m; sourceTree = "<group>"; };
+		849EE6F61B1C655A009FB3EE /* TableCabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCabelViewController.h; sourceTree = "<group>"; };
+		849EE6F71B1C655A009FB3EE /* TableCabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCabelViewController.m; sourceTree = "<group>"; };
+		849F0BD91B132AEF009F07DC /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		849F0BDA1B132AEF009F07DC /* О проекте.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "О проекте.html"; sourceTree = "<group>"; };
+		849F0BDB1B132AEF009F07DC /* Ответственность.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Ответственность.html"; sourceTree = "<group>"; };
+		849F50471B0FC5CF004DE2DF /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		84A0099A1B05E07500EF3018 /* DesignationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignationViewController.h; sourceTree = "<group>"; };
+		84A0099B1B05E07500EF3018 /* DesignationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignationViewController.m; sourceTree = "<group>"; };
+		84A0099D1B05E1F700EF3018 /* SNIPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNIPViewController.h; sourceTree = "<group>"; };
+		84A0099E1B05E1F700EF3018 /* SNIPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNIPViewController.m; sourceTree = "<group>"; };
+		84A209D51B0B869E00FC9EC4 /* 220Switch_l@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "220Switch_l@3x.png"; sourceTree = "<group>"; };
+		84A209D61B0B869E00FC9EC4 /* 220Switch_r@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "220Switch_r@3x.png"; sourceTree = "<group>"; };
+		84A209D71B0B869E00FC9EC4 /* ABtSwitch_l@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ABtSwitch_l@3x.png"; sourceTree = "<group>"; };
+		84A209D81B0B869E00FC9EC4 /* ABtSwitch_r@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ABtSwitch_r@3x.png"; sourceTree = "<group>"; };
+		84A209D91B0B869E00FC9EC4 /* AlCuSwitch_l@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlCuSwitch_l@3x.png"; sourceTree = "<group>"; };
+		84A209DA1B0B869E00FC9EC4 /* AlCuSwitch_r@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AlCuSwitch_r@3x.png"; sourceTree = "<group>"; };
+		84A220821ADD54010041093B /* AboutProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutProjectViewController.h; sourceTree = "<group>"; };
+		84A220831ADD54010041093B /* AboutProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutProjectViewController.m; sourceTree = "<group>"; };
+		84A220851ADD614A0041093B /* ElectricianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElectricianViewController.h; sourceTree = "<group>"; };
+		84A220861ADD614A0041093B /* ElectricianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElectricianViewController.m; sourceTree = "<group>"; };
+		84A220881ADD61AE0041093B /* SectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionViewController.h; sourceTree = "<group>"; };
+		84A220891ADD61AE0041093B /* SectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionViewController.m; sourceTree = "<group>"; };
+		84A37FC71AF64221004B75A6 /* CalculateSpeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateSpeedViewController.h; sourceTree = "<group>"; };
+		84A37FC81AF64221004B75A6 /* CalculateSpeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateSpeedViewController.m; sourceTree = "<group>"; };
+		84A37FCA1AF6466C004B75A6 /* FrequencyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrequencyCell.h; sourceTree = "<group>"; };
+		84A37FCB1AF6466C004B75A6 /* FrequencyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrequencyCell.m; sourceTree = "<group>"; };
+		84A37FCD1AF646F3004B75A6 /* FrequencyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FrequencyCell.xib; sourceTree = "<group>"; };
+		84A37FCF1AF653F1004B75A6 /* CountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountCell.h; sourceTree = "<group>"; };
+		84A37FD01AF653F1004B75A6 /* CountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountCell.m; sourceTree = "<group>"; };
+		84A37FD11AF653F1004B75A6 /* CountCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountCell.xib; sourceTree = "<group>"; };
+		84A37FD41AF66C36004B75A6 /* SpeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedCell.h; sourceTree = "<group>"; };
+		84A37FD51AF66C36004B75A6 /* SpeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedCell.m; sourceTree = "<group>"; };
+		84A37FD61AF66C36004B75A6 /* SpeedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpeedCell.xib; sourceTree = "<group>"; };
+		84A4EB961B0DE1B90019D4FB /* splashWithText@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splashWithText@2x.png"; sourceTree = "<group>"; };
+		84A4EB981B0DE1C90019D4FB /* splashWithText@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splashWithText@3x.png"; sourceTree = "<group>"; };
+		84A4ECAD1B0E002E0019D4FB /* LowCurrentCabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowCurrentCabelViewController.h; sourceTree = "<group>"; };
+		84A4ECAE1B0E002E0019D4FB /* LowCurrentCabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowCurrentCabelViewController.m; sourceTree = "<group>"; };
+		84A4ECB01B0E008D0019D4FB /* DesignationAutoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignationAutoViewController.h; sourceTree = "<group>"; };
+		84A4ECB11B0E008D0019D4FB /* DesignationAutoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignationAutoViewController.m; sourceTree = "<group>"; };
+		84A4ECB91B0E01250019D4FB /* GroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroundViewController.h; sourceTree = "<group>"; };
+		84A4ECBA1B0E01250019D4FB /* GroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroundViewController.m; sourceTree = "<group>"; };
+		84A4ECBC1B0E01550019D4FB /* SecurityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityViewController.h; sourceTree = "<group>"; };
+		84A4ECBD1B0E01550019D4FB /* SecurityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityViewController.m; sourceTree = "<group>"; };
+		84A743991B17005F003896CD /* MKStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreManager.h; sourceTree = "<group>"; };
+		84A7439A1B17005F003896CD /* MKStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStoreManager.m; sourceTree = "<group>"; };
+		84A7439B1B17005F003896CD /* MKStoreObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreObserver.h; sourceTree = "<group>"; };
+		84A7439C1B17005F003896CD /* MKStoreObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStoreObserver.m; sourceTree = "<group>"; };
+		84A9BD211AEF9FD600E1EFAF /* LightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightViewController.h; sourceTree = "<group>"; };
+		84A9BD221AEF9FD600E1EFAF /* LightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightViewController.m; sourceTree = "<group>"; };
+		84AB50B91B74D4BD000BB96D /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		84AB50BA1B74D4BD000BB96D /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		84AB50BB1B74D4BD000BB96D /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		84AB50BE1B74D771000BB96D /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76@2x.png"; path = "icon/ios/AppIcon.appiconset/Icon-76@2x.png"; sourceTree = "<group>"; };
+		84AB50C01B74ECE5000BB96D /* DetailNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailNewsViewController.h; sourceTree = "<group>"; };
+		84AB50C11B74ECE5000BB96D /* DetailNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailNewsViewController.m; sourceTree = "<group>"; };
+		84ABE02F1B16605E004FDDF7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		84BBD0351AEB855700A49914 /* CalculatorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorsViewController.h; sourceTree = "<group>"; };
+		84BBD0361AEB855700A49914 /* CalculatorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorsViewController.m; sourceTree = "<group>"; };
+		84E55B7B1B875889007F57AA /* CallSpecialistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallSpecialistViewController.h; sourceTree = "<group>"; };
+		84E55B7C1B875889007F57AA /* CallSpecialistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallSpecialistViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841983021ADC071A0008D162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ABE0301B16605E004FDDF7 /* StoreKit.framework in Frameworks */,
+				849F50481B0FC5CF004DE2DF /* iAd.framework in Frameworks */,
+				84230B881AE81FC000C4B451 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841982FC1ADC071A0008D162 = {
+			isa = PBXGroup;
+			children = (
+				84ABE02F1B16605E004FDDF7 /* StoreKit.framework */,
+				849F50471B0FC5CF004DE2DF /* iAd.framework */,
+				84230B871AE81FC000C4B451 /* QuartzCore.framework */,
+				841983071ADC071A0008D162 /* Справочник электрика */,
+				841983211ADC071A0008D162 /* Справочник электрикаTests */,
+				841983061ADC071A0008D162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841983061ADC071A0008D162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841983051ADC071A0008D162 /* Электрика.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841983071ADC071A0008D162 /* Справочник электрика */ = {
+			isa = PBXGroup;
+			children = (
+				8419830C1ADC071A0008D162 /* AppDelegate.h */,
+				8419830D1ADC071A0008D162 /* AppDelegate.m */,
+				844DC1DA1B73736B0028076B /* News */,
+				84A743981B17005F003896CD /* MKStore */,
+				84A3C5F61B03DF5F0047C9CD /* Automation */,
+				84A3C5F51B03DF430047C9CD /* Electrian */,
+				84A3C5F41B03DEF20047C9CD /* Calculators */,
+				84A3C5F91B03DFAF0047C9CD /* AboutProject */,
+				841983121ADC071A0008D162 /* Main.storyboard */,
+				841983151ADC071A0008D162 /* Images.xcassets */,
+				841983171ADC071A0008D162 /* LaunchScreen.xib */,
+				841983081ADC071A0008D162 /* Supporting Files */,
+				847D0D281AE81EAE00EFC968 /* Справочник электрика-Bridging-Header.h */,
+			);
+			path = "Справочник электрика";
+			sourceTree = "<group>";
+		};
+		841983081ADC071A0008D162 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847D0CA91AE7FB1800EFC968 /* Design */,
+				841983311ADC1A080008D162 /* HTML */,
+				841983091ADC071A0008D162 /* Info.plist */,
+				8415352A1B94781100C41645 /* document.json */,
+				8419830A1ADC071A0008D162 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		841983211ADC071A0008D162 /* Справочник электрикаTests */ = {
+			isa = PBXGroup;
+			children = (
+				841983241ADC071A0008D162 /* ____________________Tests.m */,
+				841983221ADC071A0008D162 /* Supporting Files */,
+			);
+			path = "Справочник электрикаTests";
+			sourceTree = "<group>";
+		};
+		841983221ADC071A0008D162 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841983231ADC071A0008D162 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		841983311ADC1A080008D162 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				847E21CE1BC40B7C00BAB879 /* Электрика */,
+				847D4A081BBD1E8800D80CD5 /* Автоматизация */,
+				847D4A051BBD1ACF00D80CD5 /* Online инженер */,
+				849F0BD81B132AEF009F07DC /* О проекте */,
+			);
+			path = HTML;
+			sourceTree = "<group>";
+		};
+		844DC1DA1B73736B0028076B /* News */ = {
+			isa = PBXGroup;
+			children = (
+				844DC1DB1B7373950028076B /* NewsViewController.h */,
+				844DC1DC1B7373950028076B /* NewsViewController.m */,
+				84AB50C01B74ECE5000BB96D /* DetailNewsViewController.h */,
+				84AB50C11B74ECE5000BB96D /* DetailNewsViewController.m */,
+				84AB50B01B74D185000BB96D /* News Cells */,
+			);
+			name = News;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		847D0CA91AE7FB1800EFC968 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				848A2E7A1BBC21BE004E8013 /* clock.png */,
+				848A2E7B1BBC21BE004E8013 /* down.png */,
+				848A2E7C1BBC21BE004E8013 /* up.png */,
+				84539A031B807C430052FFD9 /* datePic.png */,
+				84AB50BE1B74D771000BB96D /* Icon-76@2x.png */,
+				847D0CAA1AE7FB1800EFC968 /* @2x */,
+				847D0CCA1AE7FB1800EFC968 /* @3x */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		847D0CAA1AE7FB1800EFC968 /* @2x */ = {
+			isa = PBXGroup;
+			children = (
+				8453CDE91BA064EA00238723 /* news1@2x.png */,
+				847D0CAB1AE7FB1800EFC968 /* backgraund@2x.png */,
+				847D0CAC1AE7FB1800EFC968 /* backgraund_color_ffffff_opasity_50%@2x.png */,
+				847D0CAD1AE7FB1800EFC968 /* color_37474f@2x.png */,
+				847D0CAE1AE7FB1800EFC968 /* color_5294c3@2x.png */,
+				847D0CAF1AE7FB1800EFC968 /* color_eaeaea_opasity_50%@2x.png */,
+				847D0CB01AE7FB1800EFC968 /* navbar_ic_back@2x.png */,
+				847D0CB11AE7FB1800EFC968 /* navbar_ic_back_up@2x.png */,
+				847D0CB21AE7FB1800EFC968 /* progressbar@2x.png */,
+				847D0CB31AE7FB1800EFC968 /* progressbar_o@2x.png */,
+				847D0CB41AE7FB1800EFC968 /* progressbar_up@2x.png */,
+				847D0CB51AE7FB1800EFC968 /* segmentcontrol_c@2x.png */,
+				847D0CB61AE7FB1800EFC968 /* segmentcontrol_c_up@2x.png */,
+				847D0CB71AE7FB1800EFC968 /* segmentcontrol_l@2x.png */,
+				847D0CB81AE7FB1800EFC968 /* segmentcontrol_l_up@2x.png */,
+				847D0CB91AE7FB1800EFC968 /* segmentcontrol_r@2x.png */,
+				847D0CBA1AE7FB1800EFC968 /* segmentcontrol_r_up@2x.png */,
+				84A4EB961B0DE1B90019D4FB /* splashWithText@2x.png */,
+				847D0CBB1AE7FB1800EFC968 /* separator@2x.png */,
+				847D0CBC1AE7FB1800EFC968 /* splash@2x.png */,
+				847D0CBD1AE7FB1800EFC968 /* switch_l@2x.png */,
+				847D0CBE1AE7FB1800EFC968 /* switch_r@2x.png */,
+				847D0CBF1AE7FB1800EFC968 /* tabbar@2x.png */,
+				847D0CC01AE7FB1800EFC968 /* tabbar_ic_about_the_project@2x.png */,
+				847D0CC11AE7FB1800EFC968 /* tabbar_ic_about_the_project_up@2x.png */,
+				847D0CC21AE7FB1800EFC968 /* tabbar_ic_automation@2x.png */,
+				847D0CC31AE7FB1800EFC968 /* tabbar_ic_automation_up@2x.png */,
+				847D0CC41AE7FB1800EFC968 /* tabbar_ic_calculator@2x.png */,
+				847D0CC51AE7FB1800EFC968 /* tabbar_ic_calculator_up@2x.png */,
+				847D0CC61AE7FB1800EFC968 /* tabbar_ic_electrician@2x.png */,
+				847D0CC71AE7FB1800EFC968 /* tabbar_icelectrician_up@2x.png */,
+				847D0CC81AE7FB1800EFC968 /* textbox@2x.png */,
+				847D0CC91AE7FB1800EFC968 /* Thumbs.db */,
+			);
+			path = "@2x";
+			sourceTree = "<group>";
+		};
+		847D0CCA1AE7FB1800EFC968 /* @3x */ = {
+			isa = PBXGroup;
+			children = (
+				84A4EB981B0DE1C90019D4FB /* splashWithText@3x.png */,
+				84A209D51B0B869E00FC9EC4 /* 220Switch_l@3x.png */,
+				84A209D61B0B869E00FC9EC4 /* 220Switch_r@3x.png */,
+				84A209D71B0B869E00FC9EC4 /* ABtSwitch_l@3x.png */,
+				84A209D81B0B869E00FC9EC4 /* ABtSwitch_r@3x.png */,
+				84A209D91B0B869E00FC9EC4 /* AlCuSwitch_l@3x.png */,
+				84A209DA1B0B869E00FC9EC4 /* AlCuSwitch_r@3x.png */,
+				847D0CCB1AE7FB1800EFC968 /* backgraund@3x.png */,
+				847D0CCC1AE7FB1800EFC968 /* backgraund_color_ffffff_opasity_50%@3x.png */,
+				847D0CCD1AE7FB1800EFC968 /* color_37474f@3x.png */,
+				847D0CCE1AE7FB1800EFC968 /* color_5294c3@3x.png */,
+				847D0CCF1AE7FB1800EFC968 /* color_eaeaea_opasity_50%@3x.png */,
+				847D0CD01AE7FB1800EFC968 /* navbar_ic_back@3x.png */,
+				847D0CD11AE7FB1800EFC968 /* navbar_ic_back_up@3x.png */,
+				847D0CD21AE7FB1800EFC968 /* progressbar@3x.png */,
+				847D0CD31AE7FB1800EFC968 /* progressbar_o@3x.png */,
+				847D0CD41AE7FB1800EFC968 /* progressbar_up@3x.png */,
+				847D0CD51AE7FB1800EFC968 /* segmentcontrol_c@3x.png */,
+				847D0CD61AE7FB1800EFC968 /* segmentcontrol_c_up@3x.png */,
+				847D0CD71AE7FB1800EFC968 /* segmentcontrol_l@3x.png */,
+				847D0CD81AE7FB1800EFC968 /* segmentcontrol_l_up@3x.png */,
+				847D0CD91AE7FB1800EFC968 /* segmentcontrol_r@3x.png */,
+				847D0CDA1AE7FB1800EFC968 /* segmentcontrol_r_up@3x.png */,
+				847D0CDB1AE7FB1800EFC968 /* separator@3x.png */,
+				847D0CDC1AE7FB1800EFC968 /* splash@3x.png */,
+				847D0CDD1AE7FB1800EFC968 /* switch_l@3x.png */,
+				847D0CDE1AE7FB1800EFC968 /* switch_r@3x.png */,
+				847D0CDF1AE7FB1800EFC968 /* tabbar@3x.png */,
+				847D0CE01AE7FB1800EFC968 /* tabbar_ic_about_the_project@3x.png */,
+				847D0CE11AE7FB1800EFC968 /* tabbar_ic_about_the_project_up@3x.png */,
+				847D0CE21AE7FB1800EFC968 /* tabbar_ic_automation@3x.png */,
+				847D0CE31AE7FB1800EFC968 /* tabbar_ic_automation_up@3x.png */,
+				847D0CE41AE7FB1800EFC968 /* tabbar_ic_calculator@3x.png */,
+				847D0CE51AE7FB1800EFC968 /* tabbar_ic_calculator_up@3x.png */,
+				847D0CE61AE7FB1800EFC968 /* tabbar_ic_electrician@3x.png */,
+				847D0CE71AE7FB1800EFC968 /* tabbar_icelectrician_up@3x.png */,
+				847D0CE81AE7FB1800EFC968 /* textbox@3x.png */,
+				847D0CE91AE7FB1800EFC968 /* Thumbs.db */,
+			);
+			path = "@3x";
+			sourceTree = "<group>";
+		};
+		847D49FF1BBD165800D80CD5 /* CallSpecialistReadMore */ = {
+			isa = PBXGroup;
+			children = (
+				847D4A001BBD169A00D80CD5 /* ReadMoreViewController.h */,
+				847D4A011BBD169A00D80CD5 /* ReadMoreViewController.m */,
+			);
+			name = CallSpecialistReadMore;
+			sourceTree = "<group>";
+		};
+		847D4A051BBD1ACF00D80CD5 /* Online инженер */ = {
+			isa = PBXGroup;
+			children = (
+				847D4A061BBD1AEB00D80CD5 /* Справка онлайн помощника.html */,
+			);
+			name = "Online инженер";
+			sourceTree = "<group>";
+		};
+		847D4A081BBD1E8800D80CD5 /* Автоматизация */ = {
+			isa = PBXGroup;
+			children = (
+				847D4A3A1BBD1F3D00D80CD5 /* Обозначение на схеме */,
+				847D4A391BBD1F2400D80CD5 /* Обозн. коммут. аппаратов */,
+				847D4A381BBD1F0B00D80CD5 /* Кабель слаботочный */,
+				847D4A371BBD1EF200D80CD5 /* Автоматизируем ИТП */,
+				847D4A2D1BBD1ECD00D80CD5 /* Выдержки из СНиП.html */,
+				847D4A2E1BBD1ECD00D80CD5 /* Мощность и токи двигателя.html */,
+				847D4A2F1BBD1ECD00D80CD5 /* Сопротивление термометров.html */,
+				847D4A301BBD1ECD00D80CD5 /* Таблица плавких вставок.html */,
+				847D4A311BBD1ECD00D80CD5 /* Температурные датчики.html */,
+			);
+			name = "Автоматизация";
+			sourceTree = "<group>";
+		};
+		847D4A371BBD1EF200D80CD5 /* Автоматизируем ИТП */ = {
+			isa = PBXGroup;
+			children = (
+				848DE4A41BC2D298004D4D32 /* автоматизируем итп */,
+				848DE4A51BC2D298004D4D32 /* Автоматизация ИТП.html */,
+			);
+			name = "Автоматизируем ИТП";
+			sourceTree = "<group>";
+		};
+		847D4A381BBD1F0B00D80CD5 /* Кабель слаботочный */ = {
+			isa = PBXGroup;
+			children = (
+				847D4A431BBD204900D80CD5 /* кабель слаботочный */,
+				847D4A441BBD204900D80CD5 /* слаботочый кабель.html */,
+			);
+			name = "Кабель слаботочный";
+			sourceTree = "<group>";
+		};
+		847D4A391BBD1F2400D80CD5 /* Обозн. коммут. аппаратов */ = {
+			isa = PBXGroup;
+			children = (
+				847D4A3F1BBD201500D80CD5 /* Условные обозначения. Коммутационные устройства и контактные соединения (ГОСТ 2.755-87) _ electromonter.info_files */,
+				847D4A401BBD201500D80CD5 /* Условные обозначения. Коммутационные устройства и контактные соединения (ГОСТ 2.755-87) _ electromonter.info.html */,
+			);
+			name = "Обозн. коммут. аппаратов";
+			sourceTree = "<group>";
+		};
+		847D4A3A1BBD1F3D00D80CD5 /* Обозначение на схеме */ = {
+			isa = PBXGroup;
+			children = (
+				847D4A3B1BBD1F5200D80CD5 /* обозначение на схеме */,
+				847D4A3C1BBD1F5200D80CD5 /* авт. Обозначения на схеме.html */,
+			);
+			name = "Обозначение на схеме";
+			sourceTree = "<group>";
+		};
+		847E21CE1BC40B7C00BAB879 /* Электрика */ = {
+			isa = PBXGroup;
+			children = (
+				849987BA1BD520A70003D2BB /* Электромонтаж у себя дома */,
+				847E21D51BC40BF900BAB879 /* Соеденение проводов */,
+				847E21D41BC40BE900BAB879 /* Собираем шкаф */,
+				847E21D31BC40BD800BAB879 /* Основы безопасности */,
+				847E21D21BC40BC700BAB879 /* Обозначение на схеме */,
+				847E21D11BC40BB500BAB879 /* Кабель силовой */,
+				847E21D01BC40BA600BAB879 /* Заземление */,
+				847E21CF1BC40B8F00BAB879 /* Автоматические выключатели */,
+				847E21D61BC40C1B00BAB879 /* Э Выдержки из СНиП.html */,
+				847E21DA1BC40C1B00BAB879 /* Таблица сечений кабеля.html */,
+				847E21D71BC40C1B00BAB879 /* Защита IP.html */,
+				847E21D81BC40C1B00BAB879 /* Кабель для судостроителей.html */,
+				847E21D91BC40C1B00BAB879 /* Таблица потребителей.html */,
+			);
+			name = "Электрика";
+			sourceTree = "<group>";
+		};
+		847E21CF1BC40B8F00BAB879 /* Автоматические выключатели */ = {
+			isa = PBXGroup;
+			children = (
+				847E21F81BC40CC700BAB879 /* автоматические выключатели */,
+				847E21F91BC40CC700BAB879 /* Автоматические выключатели.html */,
+			);
+			name = "Автоматические выключатели";
+			sourceTree = "<group>";
+		};
+		847E21D01BC40BA600BAB879 /* Заземление */ = {
+			isa = PBXGroup;
+			children = (
+				847E21F41BC40CB900BAB879 /* заземление */,
+				847E21F51BC40CB900BAB879 /* заземление.html */,
+			);
+			name = "Заземление";
+			sourceTree = "<group>";
+		};
+		847E21D11BC40BB500BAB879 /* Кабель силовой */ = {
+			isa = PBXGroup;
+			children = (
+				847E21F01BC40CAA00BAB879 /* силовой кабель */,
+				847E21F11BC40CAA00BAB879 /* силовой кабель.html */,
+			);
+			name = "Кабель силовой";
+			sourceTree = "<group>";
+		};
+		847E21D21BC40BC700BAB879 /* Обозначение на схеме */ = {
+			isa = PBXGroup;
+			children = (
+				847E21EC1BC40C8500BAB879 /* Э обозначение на схеме */,
+				847E21ED1BC40C8500BAB879 /* Обозначения.html */,
+			);
+			name = "Обозначение на схеме";
+			sourceTree = "<group>";
+		};
+		847E21D31BC40BD800BAB879 /* Основы безопасности */ = {
+			isa = PBXGroup;
+			children = (
+				847E21E81BC40C7900BAB879 /* основы безопасности */,
+				847E21E91BC40C7900BAB879 /* основы безопасности.html */,
+			);
+			name = "Основы безопасности";
+			sourceTree = "<group>";
+		};
+		847E21D41BC40BE900BAB879 /* Собираем шкаф */ = {
+			isa = PBXGroup;
+			children = (
+				847E21E41BC40C6C00BAB879 /* собираем шкаф */,
+				847E21E51BC40C6C00BAB879 /* Собираем шкаф.html */,
+			);
+			name = "Собираем шкаф";
+			sourceTree = "<group>";
+		};
+		847E21D51BC40BF900BAB879 /* Соеденение проводов */ = {
+			isa = PBXGroup;
+			children = (
+				847E21E01BC40C5100BAB879 /* соеденение проводов */,
+				847E21E11BC40C5100BAB879 /* Соединение проводов.html */,
+			);
+			name = "Соеденение проводов";
+			sourceTree = "<group>";
+		};
+		848126481BC7DF3B00692EF9 /* Diametr Section Cells */ = {
+			isa = PBXGroup;
+			children = (
+				848126491BC7DF9600692EF9 /* DiametrCell.h */,
+				8481264A1BC7DF9600692EF9 /* DiametrCell.m */,
+				8481264B1BC7DF9600692EF9 /* DiametrCell.xib */,
+				8481264E1BC7F3B400692EF9 /* SectionCell.h */,
+				8481264F1BC7F3B400692EF9 /* SectionCell.m */,
+				848126501BC7F3B400692EF9 /* SectionCell.xib */,
+			);
+			name = "Diametr Section Cells";
+			sourceTree = "<group>";
+		};
+		849987BA1BD520A70003D2BB /* Электромонтаж у себя дома */ = {
+			isa = PBXGroup;
+			children = (
+				849987BB1BD520E90003D2BB /* электромонтаж у себя дома */,
+				849987BC1BD520E90003D2BB /* Электромонтаж у себя дома.html */,
+			);
+			name = "Электромонтаж у себя дома";
+			sourceTree = "<group>";
+		};
+		849F0BD81B132AEF009F07DC /* О проекте */ = {
+			isa = PBXGroup;
+			children = (
+				849F0BD91B132AEF009F07DC /* logo.jpg */,
+				849F0BDA1B132AEF009F07DC /* О проекте.html */,
+				849F0BDB1B132AEF009F07DC /* Ответственность.html */,
+			);
+			path = "О проекте";
+			sourceTree = "<group>";
+		};
+		84A3C5F41B03DEF20047C9CD /* Calculators */ = {
+			isa = PBXGroup;
+			children = (
+				84BBD0351AEB855700A49914 /* CalculatorsViewController.h */,
+				84BBD0361AEB855700A49914 /* CalculatorsViewController.m */,
+				84A220881ADD61AE0041093B /* SectionViewController.h */,
+				84A220891ADD61AE0041093B /* SectionViewController.m */,
+				84A9BD211AEF9FD600E1EFAF /* LightViewController.h */,
+				84A9BD221AEF9FD600E1EFAF /* LightViewController.m */,
+				84A37FC71AF64221004B75A6 /* CalculateSpeedViewController.h */,
+				84A37FC81AF64221004B75A6 /* CalculateSpeedViewController.m */,
+				844EA3761B710A4A007A8EF6 /* UZOViewController.h */,
+				844EA3771B710A4A007A8EF6 /* UZOViewController.m */,
+				84E55B7B1B875889007F57AA /* CallSpecialistViewController.h */,
+				84E55B7C1B875889007F57AA /* CallSpecialistViewController.m */,
+				847D49FF1BBD165800D80CD5 /* CallSpecialistReadMore */,
+				841535271B9476D900C41645 /* GeneratorActsViewController.h */,
+				841535281B9476D900C41645 /* GeneratorActsViewController.m */,
+				84A3C5F71B03DF7E0047C9CD /* Calculate Speed Cells */,
+				848126451BC7DF1E00692EF9 /* DiametrSectionViewController.h */,
+				848126461BC7DF1E00692EF9 /* DiametrSectionViewController.m */,
+				848126481BC7DF3B00692EF9 /* Diametr Section Cells */,
+			);
+			name = Calculators;
+			sourceTree = "<group>";
+		};
+		84A3C5F51B03DF430047C9CD /* Electrian */ = {
+			isa = PBXGroup;
+			children = (
+				84A220851ADD614A0041093B /* ElectricianViewController.h */,
+				84A220861ADD614A0041093B /* ElectricianViewController.m */,
+				844D05141AEBED1300F7228B /* PowerCableViewController.h */,
+				844D05151AEBED1300F7228B /* PowerCableViewController.m */,
+				84A0099A1B05E07500EF3018 /* DesignationViewController.h */,
+				84A0099B1B05E07500EF3018 /* DesignationViewController.m */,
+				84A0099D1B05E1F700EF3018 /* SNIPViewController.h */,
+				84A0099E1B05E1F700EF3018 /* SNIPViewController.m */,
+				84A4ECB91B0E01250019D4FB /* GroundViewController.h */,
+				84A4ECBA1B0E01250019D4FB /* GroundViewController.m */,
+				84A4ECBC1B0E01550019D4FB /* SecurityViewController.h */,
+				84A4ECBD1B0E01550019D4FB /* SecurityViewController.m */,
+				849EE6F61B1C655A009FB3EE /* TableCabelViewController.h */,
+				849EE6F71B1C655A009FB3EE /* TableCabelViewController.m */,
+				847E21FC1BC4201200BAB879 /* ConcatenateWiresViewController.h */,
+				847E21FD1BC4201200BAB879 /* ConcatenateWiresViewController.m */,
+				847E21FF1BC4202D00BAB879 /* CollectCabinetViewController.h */,
+				847E22001BC4202D00BAB879 /* CollectCabinetViewController.m */,
+				847E220B1BC4208500BAB879 /* CablesForShipbuildersViewController.h */,
+				847E220C1BC4208500BAB879 /* CablesForShipbuildersViewController.m */,
+				847E22081BC4207100BAB879 /* ProtectionIPViewController.h */,
+				847E22091BC4207100BAB879 /* ProtectionIPViewController.m */,
+				847E22051BC4205C00BAB879 /* TableOfCableCrossSectionsViewController.h */,
+				847E22061BC4205C00BAB879 /* TableOfCableCrossSectionsViewController.m */,
+				847E22021BC4204700BAB879 /* CircuitBreakersViewController.h */,
+				847E22031BC4204700BAB879 /* CircuitBreakersViewController.m */,
+				849987BF1BD5229F0003D2BB /* WiringAtHomeViewController.h */,
+				849987C01BD5229F0003D2BB /* WiringAtHomeViewController.m */,
+			);
+			name = Electrian;
+			sourceTree = "<group>";
+		};
+		84A3C5F61B03DF5F0047C9CD /* Automation */ = {
+			isa = PBXGroup;
+			children = (
+				8419830F1ADC071A0008D162 /* AutomationViewController.h */,
+				841983101ADC071A0008D162 /* AutomationViewController.m */,
+				84A4ECAD1B0E002E0019D4FB /* LowCurrentCabelViewController.h */,
+				84A4ECAE1B0E002E0019D4FB /* LowCurrentCabelViewController.m */,
+				84A4ECB01B0E008D0019D4FB /* DesignationAutoViewController.h */,
+				84A4ECB11B0E008D0019D4FB /* DesignationAutoViewController.m */,
+				849EE6F31B1C6313009FB3EE /* TemperatureViewController.h */,
+				849EE6F41B1C6313009FB3EE /* TemperatureViewController.m */,
+				848DE4A81BC2DD69004D4D32 /* DesignationOfCommutativeDevicesViewController.h */,
+				848DE4A91BC2DD69004D4D32 /* DesignationOfCommutativeDevicesViewController.m */,
+				848DE4AB1BC30508004D4D32 /* AutomateITPViewController.h */,
+				848DE4AC1BC30508004D4D32 /* AutomateITPViewController.m */,
+				847E21C21BC3FBC600BAB879 /* ExcerptsFromSNIPViewController.h */,
+				847E21C31BC3FBC600BAB879 /* ExcerptsFromSNIPViewController.m */,
+				847E21C51BC3FC3400BAB879 /* PowerAndCurrentEngineViewController.h */,
+				847E21C61BC3FC3400BAB879 /* PowerAndCurrentEngineViewController.m */,
+				847E21C81BC3FC9200BAB879 /* ResistanceThermometersViewController.h */,
+				847E21C91BC3FC9200BAB879 /* ResistanceThermometersViewController.m */,
+				847E21CB1BC3FCF600BAB879 /* TableOfFuse-linksViewController.h */,
+				847E21CC1BC3FCF600BAB879 /* TableOfFuse-linksViewController.m */,
+			);
+			name = Automation;
+			sourceTree = "<group>";
+		};
+		84A3C5F71B03DF7E0047C9CD /* Calculate Speed Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84A37FCA1AF6466C004B75A6 /* FrequencyCell.h */,
+				84A37FCB1AF6466C004B75A6 /* FrequencyCell.m */,
+				84A37FCD1AF646F3004B75A6 /* FrequencyCell.xib */,
+				84A37FCF1AF653F1004B75A6 /* CountCell.h */,
+				84A37FD01AF653F1004B75A6 /* CountCell.m */,
+				84A37FD11AF653F1004B75A6 /* CountCell.xib */,
+				84A37FD41AF66C36004B75A6 /* SpeedCell.h */,
+				84A37FD51AF66C36004B75A6 /* SpeedCell.m */,
+				84A37FD61AF66C36004B75A6 /* SpeedCell.xib */,
+			);
+			name = "Calculate Speed Cells";
+			sourceTree = "<group>";
+		};
+		84A3C5F91B03DFAF0047C9CD /* AboutProject */ = {
+			isa = PBXGroup;
+			children = (
+				84A220821ADD54010041093B /* AboutProjectViewController.h */,
+				84A220831ADD54010041093B /* AboutProjectViewController.m */,
+			);
+			name = AboutProject;
+			sourceTree = "<group>";
+		};
+		84A743981B17005F003896CD /* MKStore */ = {
+			isa = PBXGroup;
+			children = (
+				84A743991B17005F003896CD /* MKStoreManager.h */,
+				84A7439A1B17005F003896CD /* MKStoreManager.m */,
+				84A7439B1B17005F003896CD /* MKStoreObserver.h */,
+				84A7439C1B17005F003896CD /* MKStoreObserver.m */,
+			);
+			path = MKStore;
+			sourceTree = "<group>";
+		};
+		84AB50B01B74D185000BB96D /* News Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84AB50B91B74D4BD000BB96D /* NewsCell.h */,
+				84AB50BA1B74D4BD000BB96D /* NewsCell.m */,
+				84AB50BB1B74D4BD000BB96D /* NewsCell.xib */,
+			);
+			name = "News Cells";
+			path = "Справочник электрика";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841983041ADC071A0008D162 /* Электрика */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841983281ADC071A0008D162 /* Build configuration list for PBXNativeTarget "Электрика" */;
+			buildPhases = (
+				841983011ADC071A0008D162 /* Sources */,
+				841983021ADC071A0008D162 /* Frameworks */,
+				841983031ADC071A0008D162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Электрика";
+			productName = "Справочник электрика";
+			productReference = 841983051ADC071A0008D162 /* Электрика.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841982FD1ADC071A0008D162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Minkov Inc.";
+				TargetAttributes = {
+					841983041ADC071A0008D162 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 841983001ADC071A0008D162 /* Build configuration list for PBXProject "Электрика" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841982FC1ADC071A0008D162;
+			productRefGroup = 841983061ADC071A0008D162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841983041ADC071A0008D162 /* Электрика */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841983031ADC071A0008D162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847E21F61BC40CB900BAB879 /* заземление in Resources */,
+				849E673A1B187CA800350DA6 /* Main.storyboard in Resources */,
+				849987BE1BD520E90003D2BB /* Электромонтаж у себя дома.html in Resources */,
+				847E21E31BC40C5100BAB879 /* Соединение проводов.html in Resources */,
+				84A394F21B17886D006FDE8D /* Images.xcassets in Resources */,
+				847D0CF31AE7FB1800EFC968 /* progressbar_up@2x.png in Resources */,
+				8415352B1B94781100C41645 /* document.json in Resources */,
+				84A37FD81AF66C36004B75A6 /* SpeedCell.xib in Resources */,
+				847D0CF81AE7FB1800EFC968 /* segmentcontrol_r@2x.png in Resources */,
+				847D0CF51AE7FB1800EFC968 /* segmentcontrol_c_up@2x.png in Resources */,
+				847D0D091AE7FB1800EFC968 /* backgraund@3x.png in Resources */,
+				847D0CEA1AE7FB1800EFC968 /* backgraund@2x.png in Resources */,
+				847D4A321BBD1ECD00D80CD5 /* Выдержки из СНиП.html in Resources */,
+				848A2E7D1BBC21BE004E8013 /* clock.png in Resources */,
+				84A209DB1B0B869E00FC9EC4 /* 220Switch_l@3x.png in Resources */,
+				847D0D0F1AE7FB1800EFC968 /* navbar_ic_back_up@3x.png in Resources */,
+				84A209DC1B0B869E00FC9EC4 /* 220Switch_r@3x.png in Resources */,
+				847D0D271AE7FB1800EFC968 /* Thumbs.db in Resources */,
+				84539A041B807C430052FFD9 /* datePic.png in Resources */,
+				847D0D0D1AE7FB1800EFC968 /* color_eaeaea_opasity_50%@3x.png in Resources */,
+				847D0CED1AE7FB1800EFC968 /* color_5294c3@2x.png in Resources */,
+				847D0D061AE7FB1800EFC968 /* tabbar_icelectrician_up@2x.png in Resources */,
+				849F0BEE1B132AEF009F07DC /* logo.jpg in Resources */,
+				84A209DD1B0B869E00FC9EC4 /* ABtSwitch_l@3x.png in Resources */,
+				847E21EB1BC40C7900BAB879 /* основы безопасности.html in Resources */,
+				849987BD1BD520E90003D2BB /* электромонтаж у себя дома in Resources */,
+				84A37FCE1AF646F3004B75A6 /* FrequencyCell.xib in Resources */,
+				84A209DE1B0B869E00FC9EC4 /* ABtSwitch_r@3x.png in Resources */,
+				847D0CFD1AE7FB1800EFC968 /* switch_r@2x.png in Resources */,
+				847D0D131AE7FB1800EFC968 /* segmentcontrol_c@3x.png in Resources */,
+				847E21EF1BC40C8500BAB879 /* Обозначения.html in Resources */,
+				848DE4A61BC2D298004D4D32 /* автоматизируем итп in Resources */,
+				84A209DF1B0B869E00FC9EC4 /* AlCuSwitch_l@3x.png in Resources */,
+				847D0D0E1AE7FB1800EFC968 /* navbar_ic_back@3x.png in Resources */,
+				847D0D051AE7FB1800EFC968 /* tabbar_ic_electrician@2x.png in Resources */,
+				847D0D261AE7FB1800EFC968 /* textbox@3x.png in Resources */,
+				847D4A331BBD1ECD00D80CD5 /* Мощность и токи двигателя.html in Resources */,
+				847D0D1F1AE7FB1800EFC968 /* tabbar_ic_about_the_project_up@3x.png in Resources */,
+				847D0D121AE7FB1800EFC968 /* progressbar_up@3x.png in Resources */,
+				849F0BEF1B132AEF009F07DC /* О проекте.html in Resources */,
+				847D4A3E1BBD1F5200D80CD5 /* авт. Обозначения на схеме.html in Resources */,
+				847D0D201AE7FB1800EFC968 /* tabbar_ic_automation@3x.png in Resources */,
+				847D0D1E1AE7FB1800EFC968 /* tabbar_ic_about_the_project@3x.png in Resources */,
+				84A209E01B0B869E00FC9EC4 /* AlCuSwitch_r@3x.png in Resources */,
+				847D0D031AE7FB1800EFC968 /* tabbar_ic_calculator@2x.png in Resources */,
+				847D0D251AE7FB1800EFC968 /* tabbar_icelectrician_up@3x.png in Resources */,
+				847D0D221AE7FB1800EFC968 /* tabbar_ic_calculator@3x.png in Resources */,
+				847D0D011AE7FB1800EFC968 /* tabbar_ic_automation@2x.png in Resources */,
+				847D0D171AE7FB1800EFC968 /* segmentcontrol_r@3x.png in Resources */,
+				847D0D151AE7FB1800EFC968 /* segmentcontrol_l@3x.png in Resources */,
+				847D4A461BBD204900D80CD5 /* слаботочый кабель.html in Resources */,
+				847D0D211AE7FB1800EFC968 /* tabbar_ic_automation_up@3x.png in Resources */,
+				847E21F31BC40CAA00BAB879 /* силовой кабель.html in Resources */,
+				847D0D1B1AE7FB1800EFC968 /* switch_l@3x.png in Resources */,
+				847D0D141AE7FB1800EFC968 /* segmentcontrol_c_up@3x.png in Resources */,
+				847E21FA1BC40CC700BAB879 /* автоматические выключатели in Resources */,
+				84A37FD31AF653F1004B75A6 /* CountCell.xib in Resources */,
+				847E21DE1BC40C1B00BAB879 /* Таблица потребителей.html in Resources */,
+				847D0CFE1AE7FB1800EFC968 /* tabbar@2x.png in Resources */,
+				847E21DF1BC40C1B00BAB879 /* Таблица сечений кабеля.html in Resources */,
+				847E21FB1BC40CC700BAB879 /* Автоматические выключатели.html in Resources */,
+				847E21DD1BC40C1B00BAB879 /* Кабель для судостроителей.html in Resources */,
+				847D4A071BBD1AEB00D80CD5 /* Справка онлайн помощника.html in Resources */,
+				847D0D071AE7FB1800EFC968 /* textbox@2x.png in Resources */,
+				847E21EA1BC40C7900BAB879 /* основы безопасности in Resources */,
+				847D0D161AE7FB1800EFC968 /* segmentcontrol_l_up@3x.png in Resources */,
+				84A4EB991B0DE1C90019D4FB /* splashWithText@3x.png in Resources */,
+				847D0D181AE7FB1800EFC968 /* segmentcontrol_r_up@3x.png in Resources */,
+				847D0D1D1AE7FB1800EFC968 /* tabbar@3x.png in Resources */,
+				847E21E21BC40C5100BAB879 /* соеденение проводов in Resources */,
+				847D0D0A1AE7FB1800EFC968 /* backgraund_color_ffffff_opasity_50%@3x.png in Resources */,
+				847E21EE1BC40C8500BAB879 /* Э обозначение на схеме in Resources */,
+				847D0D0C1AE7FB1800EFC968 /* color_5294c3@3x.png in Resources */,
+				847D0CF11AE7FB1800EFC968 /* progressbar@2x.png in Resources */,
+				847E21DB1BC40C1B00BAB879 /* Э Выдержки из СНиП.html in Resources */,
+				84A4EB971B0DE1B90019D4FB /* splashWithText@2x.png in Resources */,
+				847D0CFB1AE7FB1800EFC968 /* splash@2x.png in Resources */,
+				848126521BC7F3B400692EF9 /* SectionCell.xib in Resources */,
+				847E21E61BC40C6C00BAB879 /* собираем шкаф in Resources */,
+				847D0D231AE7FB1800EFC968 /* tabbar_ic_calculator_up@3x.png in Resources */,
+				847D4A411BBD201500D80CD5 /* Условные обозначения. Коммутационные устройства и контактные соединения (ГОСТ 2.755-87) _ electromonter.info_files in Resources */,
+				8481264D1BC7DF9600692EF9 /* DiametrCell.xib in Resources */,
+				847D0D1C1AE7FB1800EFC968 /* switch_r@3x.png in Resources */,
+				847E21DC1BC40C1B00BAB879 /* Защита IP.html in Resources */,
+				847D0D001AE7FB1800EFC968 /* tabbar_ic_about_the_project_up@2x.png in Resources */,
+				847D0CF01AE7FB1800EFC968 /* navbar_ic_back_up@2x.png in Resources */,
+				847D4A421BBD201500D80CD5 /* Условные обозначения. Коммутационные устройства и контактные соединения (ГОСТ 2.755-87) _ electromonter.info.html in Resources */,
+				848DE4A71BC2D298004D4D32 /* Автоматизация ИТП.html in Resources */,
+				847D0D021AE7FB1800EFC968 /* tabbar_ic_automation_up@2x.png in Resources */,
+				84AB50BF1B74D771000BB96D /* Icon-76@2x.png in Resources */,
+				847D0D1A1AE7FB1800EFC968 /* splash@3x.png in Resources */,
+				847D0CEF1AE7FB1800EFC968 /* navbar_ic_back@2x.png in Resources */,
+				848A2E7E1BBC21BE004E8013 /* down.png in Resources */,
+				847D0CF71AE7FB1800EFC968 /* segmentcontrol_l_up@2x.png in Resources */,
+				848A2E7F1BBC21BE004E8013 /* up.png in Resources */,
+				847D4A341BBD1ECD00D80CD5 /* Сопротивление термометров.html in Resources */,
+				847D0CF91AE7FB1800EFC968 /* segmentcontrol_r_up@2x.png in Resources */,
+				847D0D081AE7FB1800EFC968 /* Thumbs.db in Resources */,
+				847D0CF41AE7FB1800EFC968 /* segmentcontrol_c@2x.png in Resources */,
+				847D4A3D1BBD1F5200D80CD5 /* обозначение на схеме in Resources */,
+				847D0CF21AE7FB1800EFC968 /* progressbar_o@2x.png in Resources */,
+				847E21F21BC40CAA00BAB879 /* силовой кабель in Resources */,
+				8453CDEA1BA064EA00238723 /* news1@2x.png in Resources */,
+				847D4A361BBD1ECD00D80CD5 /* Температурные датчики.html in Resources */,
+				847D0D191AE7FB1800EFC968 /* separator@3x.png in Resources */,
+				847D0D241AE7FB1800EFC968 /* tabbar_ic_electrician@3x.png in Resources */,
+				847D0CFC1AE7FB1800EFC968 /* switch_l@2x.png in Resources */,
+				847D0CFA1AE7FB1800EFC968 /* separator@2x.png in Resources */,
+				847D0CEC1AE7FB1800EFC968 /* color_37474f@2x.png in Resources */,
+				849F0BF01B132AEF009F07DC /* Ответственность.html in Resources */,
+				847D0CEB1AE7FB1800EFC968 /* backgraund_color_ffffff_opasity_50%@2x.png in Resources */,
+				847D0CFF1AE7FB1800EFC968 /* tabbar_ic_about_the_project@2x.png in Resources */,
+				847E21F71BC40CB900BAB879 /* заземление.html in Resources */,
+				847D0D101AE7FB1800EFC968 /* progressbar@3x.png in Resources */,
+				847D0D0B1AE7FB1800EFC968 /* color_37474f@3x.png in Resources */,
+				847D4A451BBD204900D80CD5 /* кабель слаботочный in Resources */,
+				847E21E71BC40C6C00BAB879 /* Собираем шкаф.html in Resources */,
+				84AB50BD1B74D4BD000BB96D /* NewsCell.xib in Resources */,
+				847D0CF61AE7FB1800EFC968 /* segmentcontrol_l@2x.png in Resources */,
+				847D0D111AE7FB1800EFC968 /* progressbar_o@3x.png in Resources */,
+				847D0CEE1AE7FB1800EFC968 /* color_eaeaea_opasity_50%@2x.png in Resources */,
+				847D4A351BBD1ECD00D80CD5 /* Таблица плавких вставок.html in Resources */,
+				847D0D041AE7FB1800EFC968 /* tabbar_ic_calculator_up@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841983011ADC071A0008D162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A0099F1B05E1F700EF3018 /* SNIPViewController.m in Sources */,
+				847E22071BC4205D00BAB879 /* TableOfCableCrossSectionsViewController.m in Sources */,
+				844D05161AEBED1300F7228B /* PowerCableViewController.m in Sources */,
+				848126511BC7F3B400692EF9 /* SectionCell.m in Sources */,
+				847E21C71BC3FC3400BAB879 /* PowerAndCurrentEngineViewController.m in Sources */,
+				848DE4AD1BC30508004D4D32 /* AutomateITPViewController.m in Sources */,
+				84A37FC91AF64221004B75A6 /* CalculateSpeedViewController.m in Sources */,
+				847E220D1BC4208500BAB879 /* CablesForShipbuildersViewController.m in Sources */,
+				847D49FE1BBD157B00D80CD5 /* GeneratorActsViewController.m in Sources */,
+				84BBD0371AEB855700A49914 /* CalculatorsViewController.m in Sources */,
+				84A220841ADD54010041093B /* AboutProjectViewController.m in Sources */,
+				847E22011BC4202D00BAB879 /* CollectCabinetViewController.m in Sources */,
+				847E22041BC4204700BAB879 /* CircuitBreakersViewController.m in Sources */,
+				847E21CA1BC3FC9200BAB879 /* ResistanceThermometersViewController.m in Sources */,
+				84A4ECAF1B0E002E0019D4FB /* LowCurrentCabelViewController.m in Sources */,
+				84AB50C21B74ECE5000BB96D /* DetailNewsViewController.m in Sources */,
+				84A4ECBB1B0E01250019D4FB /* GroundViewController.m in Sources */,
+				849EE6F51B1C6313009FB3EE /* TemperatureViewController.m in Sources */,
+				84A0099C1B05E07500EF3018 /* DesignationViewController.m in Sources */,
+				84A7439E1B17005F003896CD /* MKStoreObserver.m in Sources */,
+				849987C11BD5229F0003D2BB /* WiringAtHomeViewController.m in Sources */,
+				84AB50BC1B74D4BD000BB96D /* NewsCell.m in Sources */,
+				849EE6F81B1C655A009FB3EE /* TableCabelViewController.m in Sources */,
+				844EA3781B710A4A007A8EF6 /* UZOViewController.m in Sources */,
+				844DC1DD1B7373950028076B /* NewsViewController.m in Sources */,
+				84A4ECBE1B0E01550019D4FB /* SecurityViewController.m in Sources */,
+				841983111ADC071A0008D162 /* AutomationViewController.m in Sources */,
+				8419830E1ADC071A0008D162 /* AppDelegate.m in Sources */,
+				8481264C1BC7DF9600692EF9 /* DiametrCell.m in Sources */,
+				847D4A021BBD169A00D80CD5 /* ReadMoreViewController.m in Sources */,
+				847E21CD1BC3FCF600BAB879 /* TableOfFuse-linksViewController.m in Sources */,
+				848126471BC7DF1E00692EF9 /* DiametrSectionViewController.m in Sources */,
+				84A7439D1B17005F003896CD /* MKStoreManager.m in Sources */,
+				847E220A1BC4207100BAB879 /* ProtectionIPViewController.m in Sources */,
+				84A9BD231AEF9FD700E1EFAF /* LightViewController.m in Sources */,
+				847E21FE1BC4201200BAB879 /* ConcatenateWiresViewController.m in Sources */,
+				84A4ECB21B0E008D0019D4FB /* DesignationAutoViewController.m in Sources */,
+				84A220871ADD614A0041093B /* ElectricianViewController.m in Sources */,
+				84A37FD71AF66C36004B75A6 /* SpeedCell.m in Sources */,
+				84A37FCC1AF6466C004B75A6 /* FrequencyCell.m in Sources */,
+				847E21C41BC3FBC600BAB879 /* ExcerptsFromSNIPViewController.m in Sources */,
+				84A2208A1ADD61AE0041093B /* SectionViewController.m in Sources */,
+				84E55B7D1B875889007F57AA /* CallSpecialistViewController.m in Sources */,
+				848DE4AA1BC2DD69004D4D32 /* DesignationOfCommutativeDevicesViewController.m in Sources */,
+				8419830B1ADC071A0008D162 /* main.m in Sources */,
+				84A37FD21AF653F1004B75A6 /* CountCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		841983121ADC071A0008D162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841983131ADC071A0008D162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		841983171ADC071A0008D162 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841983181ADC071A0008D162 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841983261ADC071A0008D162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "1a220b14-9959-4e3a-a094-f90b54e1c496";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		841983271ADC071A0008D162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Evgeny Chestnov (SRQUF8R6KU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Evgeny Chestnov (SRQUF8R6KU)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "1a220b14-9959-4e3a-a094-f90b54e1c496";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841983291ADC071A0008D162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Справочник электрика/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Электрика";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Справочник электрика/Справочник электрика-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8419832A1ADC071A0008D162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Справочник электрика/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Электрика";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Справочник электрика/Справочник электрика-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841983001ADC071A0008D162 /* Build configuration list for PBXProject "Электрика" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841983261ADC071A0008D162 /* Debug */,
+				841983271ADC071A0008D162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841983281ADC071A0008D162 /* Build configuration list for PBXNativeTarget "Электрика" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841983291ADC071A0008D162 /* Debug */,
+				8419832A1ADC071A0008D162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841982FD1ADC071A0008D162 /* Project object */;
+}
